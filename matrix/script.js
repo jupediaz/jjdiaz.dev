@@ -13,7 +13,8 @@ function matrix() {
     ctx.fillStyle = '#0001';
     ctx.fillRect(0, 0, w, h);
 
-    ctx.fillStyle = '#0f0';
+    // ctx.fillStyle = '#0f0';
+    ctx.fillStyle = 'rgba(0,255,0,0.35)';
     ctx.font = '15pt monospace';
 
     ypos.forEach((y, ind) => {
@@ -25,4 +26,4 @@ function matrix() {
     });
 }
 
-setInterval(matrix, 50);
+setInterval(matrix, 80);
