@@ -1,0 +1,34 @@
+/* navigation */
+
+.lmpixels-arrows-nav2 {
+  position: absolute;
+  padding: 10px 0;
+  width: 60px;
+  right: -80px;
+  background-color: #fff;
+  border-radius: 35px;
+  z-index: 98;
+  list-style: none;
+  bottom: 0;
+  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
+}
+
+.lmpixels-arrows-nav div {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: $nav-arrows;
+  padding: 10px;
+  font-size: 24px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.lmpixels-arrows-nav div:hover {
+  color: $nav-arrows-hover;
+}
