@@ -1,3 +1,6 @@
+/* externals */
+@import 'externals/typography';
+
 /* abstracts */
 @import 'abstracts/variables';
 @import 'abstracts/functions';
@@ -5,7 +8,8 @@
 
 /* base */
 @import 'base/resets';
-@import 'base/typography';
+@import 'base/fonts';
+@import 'base/linear_icons';
 @import 'base/base';
 
 /* components */
@@ -24,6 +28,7 @@
 @import 'layout/menu';
 @import 'layout/footer';
 @import 'layout/navigation';
+@import 'layout/media';
 //@import 'layout/grid';
 //@import 'layout/header';
 //@import 'layout/sidebar';
