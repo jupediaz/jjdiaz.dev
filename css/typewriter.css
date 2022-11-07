@@ -1,0 +1,347 @@
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');*/
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap");
+@import url(./css/fonts/linear-icons-font/style.css);
+@import url(./css/fonts/fontawesome-free-5.12.1-web/css/all.min.css);
+@font-face {
+  font-family: 'GT Walsheim thin';
+  src: url("./assets/mw33WKBOaXb1pzgQcfonv4i9zI_MbPuvuUUOmCdYCT2XiqSjfiNm0tdwdnJCpoaSgxY9xA.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'GT Walsheim normal';
+  src: url("./assets/6kEeNyQwxT59TY7SpLEnehG2fc_JffQ4MlQWtnUrVJZ6BhWblBg9PtmXsK3GWG-sWLpL8s.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'GT Walsheim bold';
+  src: url("./assets/9yxOMHiOq1YW9lyV4OoKqGTdPeY_q9pHFbRH4iWO5c8-Xo-ajFluB1azG1CEmNTrl-UXYjU.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'GT Walsheim extra';
+  src: url("./assets/PcJ0yzAWulkYYny8J2s5H8Dg_FBksDYrb6bW0fYOLkIszb7Vx_QY78Gv4G47v4NwlG-Q.woff2") format("woff2"); }
+
+.retro {
+  font-family: 'Press Start 2P', cursive !important; }
+
+/* typewriter */
+@keyframes typed {
+  /* string 1, char 1 */
+  0%, 0.54248% {
+    content: "C"; }
+  /* string 1, char 2 */
+  0.54348%, 1.08596% {
+    content: "CT"; }
+  /* string 1, char 3 */
+  1.08696%, 15.55607% {
+    content: "CTO"; }
+  /* string 1, char 4 */
+  15.55707%, 15.89574% {
+    content: "CT"; }
+  /* string 1, char 5 */
+  15.89674%, 16.23541% {
+    content: "C"; }
+  /* string 1, char 6 */
+  16.23641%, 23.02889% {
+    content: ""; }
+  /* string 2, char 1 */
+  23.02989%, 23.57237% {
+    content: "l"; }
+  /* string 2, char 2 */
+  23.57337%, 24.11585% {
+    content: "le"; }
+  /* string 2, char 3 */
+  24.11685%, 24.65933% {
+    content: "lea"; }
+  /* string 2, char 4 */
+  24.66033%, 25.2028% {
+    content: "lead"; }
+  /* string 2, char 5 */
+  25.2038%, 25.74628% {
+    content: "lead "; }
+  /* string 2, char 6 */
+  25.74728%, 26.28976% {
+    content: "lead d"; }
+  /* string 2, char 7 */
+  26.29076%, 26.83324% {
+    content: "lead de"; }
+  /* string 2, char 8 */
+  26.83424%, 27.37672% {
+    content: "lead dev"; }
+  /* string 2, char 9 */
+  27.37772%, 27.9202% {
+    content: "lead deve"; }
+  /* string 2, char 10 */
+  27.9212%, 28.46367% {
+    content: "lead devel"; }
+  /* string 2, char 11 */
+  28.46467%, 29.00715% {
+    content: "lead develo"; }
+  /* string 2, char 12 */
+  29.00815%, 29.55063% {
+    content: "lead develop"; }
+  /* string 2, char 13 */
+  29.55163%, 30.09411% {
+    content: "lead develope"; }
+  /* string 2, char 14 */
+  30.09511%, 44.56422% {
+    content: "lead developer"; }
+  /* string 2, char 15 */
+  44.56522%, 44.90389% {
+    content: "lead develope"; }
+  /* string 2, char 16 */
+  44.90489%, 45.24357% {
+    content: "lead develop"; }
+  /* string 2, char 17 */
+  45.24457%, 45.58324% {
+    content: "lead develo"; }
+  /* string 2, char 18 */
+  45.58424%, 45.92291% {
+    content: "lead devel"; }
+  /* string 2, char 19 */
+  45.92391%, 46.26259% {
+    content: "lead deve"; }
+  /* string 2, char 20 */
+  46.26359%, 46.60226% {
+    content: "lead dev"; }
+  /* string 2, char 21 */
+  46.60326%, 46.94193% {
+    content: "lead de"; }
+  /* string 2, char 22 */
+  46.94293%, 47.28161% {
+    content: "lead d"; }
+  /* string 2, char 23 */
+  47.28261%, 47.62128% {
+    content: "lead "; }
+  /* string 2, char 24 */
+  47.62228%, 47.96096% {
+    content: "lead"; }
+  /* string 2, char 25 */
+  47.96196%, 48.30063% {
+    content: "lea"; }
+  /* string 2, char 26 */
+  48.30163%, 48.6403% {
+    content: "le"; }
+  /* string 2, char 27 */
+  48.6413%, 48.97998% {
+    content: "l"; }
+  /* string 2, char 28 */
+  48.98098%, 55.77346% {
+    content: ""; }
+  /* string 3, char 1 */
+  55.77446%, 56.31693% {
+    content: "s"; }
+  /* string 3, char 2 */
+  56.31793%, 56.86041% {
+    content: "se"; }
+  /* string 3, char 3 */
+  56.86141%, 57.40389% {
+    content: "sen"; }
+  /* string 3, char 4 */
+  57.40489%, 57.94737% {
+    content: "seni"; }
+  /* string 3, char 5 */
+  57.94837%, 58.49085% {
+    content: "senio"; }
+  /* string 3, char 6 */
+  58.49185%, 59.03433% {
+    content: "senior"; }
+  /* string 3, char 7 */
+  59.03533%, 59.5778% {
+    content: "senior "; }
+  /* string 3, char 8 */
+  59.5788%, 60.12128% {
+    content: "senior f"; }
+  /* string 3, char 9 */
+  60.12228%, 60.66476% {
+    content: "senior fu"; }
+  /* string 3, char 10 */
+  60.66576%, 61.20824% {
+    content: "senior ful"; }
+  /* string 3, char 11 */
+  61.20924%, 61.75172% {
+    content: "senior full"; }
+  /* string 3, char 12 */
+  61.75272%, 62.2952% {
+    content: "senior full-"; }
+  /* string 3, char 13 */
+  62.2962%, 62.83867% {
+    content: "senior full-s"; }
+  /* string 3, char 14 */
+  62.83967%, 63.38215% {
+    content: "senior full-st"; }
+  /* string 3, char 15 */
+  63.38315%, 63.92563% {
+    content: "senior full-sta"; }
+  /* string 3, char 16 */
+  63.92663%, 64.46911% {
+    content: "senior full-stac"; }
+  /* string 3, char 17 */
+  64.47011%, 65.01259% {
+    content: "senior full-stack"; }
+  /* string 3, char 18 */
+  65.01359%, 65.55607% {
+    content: "senior full-stack "; }
+  /* string 3, char 19 */
+  65.55707%, 66.09954% {
+    content: "senior full-stack d"; }
+  /* string 3, char 20 */
+  66.10054%, 66.64302% {
+    content: "senior full-stack de"; }
+  /* string 3, char 21 */
+  66.64402%, 67.1865% {
+    content: "senior full-stack dev"; }
+  /* string 3, char 22 */
+  67.1875%, 67.72998% {
+    content: "senior full-stack deve"; }
+  /* string 3, char 23 */
+  67.73098%, 68.27346% {
+    content: "senior full-stack devel"; }
+  /* string 3, char 24 */
+  68.27446%, 68.81693% {
+    content: "senior full-stack develo"; }
+  /* string 3, char 25 */
+  68.81793%, 69.36041% {
+    content: "senior full-stack develop"; }
+  /* string 3, char 26 */
+  69.36141%, 69.90389% {
+    content: "senior full-stack develope"; }
+  /* string 3, char 27 */
+  69.90489%, 84.374% {
+    content: "senior full-stack developer"; }
+  /* string 3, char 28 */
+  84.375%, 84.71367% {
+    content: "senior full-stack develope"; }
+  /* string 3, char 29 */
+  84.71467%, 85.05335% {
+    content: "senior full-stack develop"; }
+  /* string 3, char 30 */
+  85.05435%, 85.39302% {
+    content: "senior full-stack develo"; }
+  /* string 3, char 31 */
+  85.39402%, 85.7327% {
+    content: "senior full-stack devel"; }
+  /* string 3, char 32 */
+  85.7337%, 86.07237% {
+    content: "senior full-stack deve"; }
+  /* string 3, char 33 */
+  86.07337%, 86.41204% {
+    content: "senior full-stack dev"; }
+  /* string 3, char 34 */
+  86.41304%, 86.75172% {
+    content: "senior full-stack de"; }
+  /* string 3, char 35 */
+  86.75272%, 87.09139% {
+    content: "senior full-stack d"; }
+  /* string 3, char 36 */
+  87.09239%, 87.43107% {
+    content: "senior full-stack "; }
+  /* string 3, char 37 */
+  87.43207%, 87.77074% {
+    content: "senior full-stack"; }
+  /* string 3, char 38 */
+  87.77174%, 88.11041% {
+    content: "senior full-stac"; }
+  /* string 3, char 39 */
+  88.11141%, 88.45009% {
+    content: "senior full-sta"; }
+  /* string 3, char 40 */
+  88.45109%, 88.78976% {
+    content: "senior full-st"; }
+  /* string 3, char 41 */
+  88.79076%, 89.12943% {
+    content: "senior full-s"; }
+  /* string 3, char 42 */
+  89.13043%, 89.46911% {
+    content: "senior full-"; }
+  /* string 3, char 43 */
+  89.47011%, 89.80878% {
+    content: "senior full"; }
+  /* string 3, char 44 */
+  89.80978%, 90.14846% {
+    content: "senior ful"; }
+  /* string 3, char 45 */
+  90.14946%, 90.48813% {
+    content: "senior fu"; }
+  /* string 3, char 46 */
+  90.48913%, 90.8278% {
+    content: "senior f"; }
+  /* string 3, char 47 */
+  90.8288%, 91.16748% {
+    content: "senior "; }
+  /* string 3, char 48 */
+  91.16848%, 91.50715% {
+    content: "senior"; }
+  /* string 3, char 49 */
+  91.50815%, 91.84683% {
+    content: "senio"; }
+  /* string 3, char 50 */
+  91.84783%, 92.1865% {
+    content: "seni"; }
+  /* string 3, char 51 */
+  92.1875%, 92.52617% {
+    content: "sen"; }
+  /* string 3, char 52 */
+  92.52717%, 92.86585% {
+    content: "se"; }
+  /* string 3, char 53 */
+  92.86685%, 93.20552% {
+    content: "s"; }
+  /* string 3, char 54 */
+  93.20652%, 100% {
+    content: ""; } }
+
+@keyframes beam-blink {
+  75% {
+    border-color: transparent; } }
+
+* {
+  backface-visibility: hidden; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.125), rgba(255, 255, 255, 0)), linear-gradient(to bottom, #000, #000 2px, #111 3px);
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-size: cover, 100% 3px;
+  font-size: calc(10px + 2vw);
+  font-family: "Press Start 2P", cursive !important;
+  color: #3f3;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  body::after {
+    content: "";
+    position: relative;
+    top: -13px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-right: calc(3px + 0.1vw);
+    border-right: 10px solid rgba(51, 255, 51, 0.75);
+    border-right: calc(1.1vw + 4px) solid rgba(51, 255, 51, 0.75);
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+    white-space: nowrap;
+    animation: typed 14.72s linear 1s infinite, beam-blink 1s infinite; }
+    @media (max-width: 575px) {
+      body::after {
+        top: -33px; } }
+  body::before {
+    content: "3 strings / 44 chars / 14.72s duration";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 3px 0;
+    background: #00f;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    white-space: pre-wrap; }
+    @media (max-width: 575px) {
+      body::before {
+        content: "3 strings \a 44 chars \a 14.72s duration"; } }

@@ -1,0 +1,27 @@
+{
+  "name": "jjdiaz.dev",
+  "version": "1.0.0",
+  "description": "JJDiaz Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass":"node-sass sass/main.scss css/main.css --watch",
+    "compile-sass":"node-sass sass/typewriter.scss css/typewriter.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupediaz/jjdiaz.dev.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "JJDiaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jupediaz/jjdiaz.dev/issues"
+  },
+  "homepage": "https://github.com/jupediaz/jjdiaz.dev#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

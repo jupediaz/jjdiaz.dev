@@ -1,0 +1,46 @@
+.btn-primary, .btn-secondary, button, input[type=button], input[type=submit], .wp-block-button .wp-block-button__link {
+  display: inline-block;
+  position: relative;
+  padding: .8em 2.1em;
+  margin-bottom: .75em;
+  margin-right: .25em;
+  font-size: 1em;
+  line-height: 1.2;
+  border: 0;
+  outline: 0;
+  border: 2px solid #84B4E0;
+  color: #222;
+  text-shadow: none;
+  background-color: #fff;
+  border-radius: 30px;
+  font-family: poppins, Helvetica, sans-serif;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 10px 10px -8px rgba(0, 0, 0, .22)
+}
+
+.btn-primary:last-child, .btn-secondary:last-child, button:last-child, input[type=button]:last-child, input[type=submit]:last-child, .wp-block-button .wp-block-button__link:last-child {
+  margin-right: 0
+}
+
+.btn-primary:hover, .btn-primary:focus, button:hover, button:focus, input[type=button]:hover, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:focus {
+  background-color: #84B4E0;
+  color: #fff;
+  border: 2px solid #84B4E0
+}
+
+.btn-secondary {
+  border-color: #d5d5d5;
+  background-color: #fff;
+  box-shadow: 0 10px 10px -8px #d5d5d5;
+  color: #666
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  color: #333;
+  border-color: #d5d5d5;
+  background-color: #d5d5d5
+}
