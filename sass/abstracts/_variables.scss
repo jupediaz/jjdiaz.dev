@@ -1,25 +1,26 @@
 $font-titles: 'GT Walsheim bold', Helvetica, sans-serif;
 $font-text: 'JetBrains Mono', monospace;
 $font-retro: 'Press Start 2P', cursive !important;
-$font-titles-thin:'GT Walsheim thin';
-$font-titles-normal:'GT Walsheim normal';
-$font-titles-bold:'GT Walsheim bold';
-$font-titles-extra:'GT Walsheim extra';
+$font-titles-thin: 'GT Walsheim thin', Helvetica, sans-serif;
+$font-titles-normal: 'GT Walsheim normal', Helvetica, sans-serif;
+$font-titles-bold: 'GT Walsheim bold', Helvetica, sans-serif;
+$font-titles-extra: 'GT Walsheim extra', Helvetica, sans-serif;
 
-//$links-color:"#06135a";
-$links-color:red;
+$font-titles-bg: 'Inter', Helvetica, sans-serif;
+//"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 
 $color-main: #010E47FF;
 $color-secondary: #2C3BE8FF;
 
+$links-color: $color-secondary;
+
 $background-gradient-color-1: $color-main;
 $background-gradient-color-2: $color-secondary;
 
+$text-color-bg-items: darkgreen;
 
-$text-color-bg-items:darkgreen;
-
-$text-color-1:$color-main;
-$background-color-main-1:$color-main;
+$text-color-1: $color-main;
+$background-color-main-1: $color-main;
 
 $text-color-highlighted: $color-secondary;
 
@@ -28,4 +29,4 @@ $nav-svg-icon-color: $color-main;
 $nav-arrows: $color-main;
 $nav-arrows-2: $color-secondary;
 $nav-arrows-hover: $color-secondary;
-$nav-menu-mobile-text-color:white;
+$nav-menu-mobile-text-color: white;

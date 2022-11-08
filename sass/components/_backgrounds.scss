@@ -2,13 +2,32 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent !important;
-  letter-spacing: -3px;
-}
+  //letter-spacing: -3px;
 
-.bg-text-blue {
-  background-image:linear-gradient(315deg, rgb(255, 0, 238) 0%, rgb(255, 170, 0) 100%)
+  &.bg-text-blue {
+    background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+    letter-spacing: -6.5px;
+    font-weight: 800;
+  }
 }
 
 .bg-text-pink {
-  background-image:linear-gradient(315deg, rgb(255, 0, 238) 0%, rgb(255, 170, 0) 100%)
+  background-image: linear-gradient(315deg, rgb(255, 0, 238) 0%, rgb(255, 170, 0) 100%)
+}
+
+.bg-text-purple {
+  background-image: linear-gradient(90deg, #7928ca, #ff0080);
+  letter-spacing: -6.5px;
+  font-weight: 800 !important;
+}
+
+.bg-text-yellow {
+  background-image: linear-gradient(90deg, #ff4d4d, #f9cb28);
+  letter-spacing: -3px;
+  font-weight: 800 !important;
+}
+
+.bg-text-white {
+  background-image: linear-gradient(180deg,rgba(0,0,0,.8),#000);
+  background-image: linear-gradient(180deg,#fff,hsla(0,0%,100%,.6));
 }

@@ -31,31 +31,30 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   /*font-family: poppins, Helvetica, sans-serif;*/
-  font-family: 'GT Walsheim bold', Helvetica, sans-serif;
+  //font-family: 'GT Walsheim bold', Helvetica, sans-serif;
+  font-family: $font-titles-bg, sans-serif;
 }
 
-h1, h2 {
+h1 {
+  font-size: 32px;
+  font-weight: 800;
   letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 27px;
+  //font-weight: 800;
+  //letter-spacing: -5.28px;
+  //letter-spacing: -3px;
 }
 
 h3 {
   letter-spacing: -1px;
-}
-
-h1 {
-  font-size: 32px
-}
-
-h2 {
-  font-size: 27px
-}
-
-h3 {
   font-size: 21px
 }
 
 h4 {
-  font-size: 18px
+  font-size: 14px
 }
 
 h5 {
