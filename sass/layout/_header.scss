@@ -51,15 +51,16 @@
 }
 
 .header-buttons .btn-primary {
-  background-color: transparent;
-  color: #fff;
-  border-color: #fff
+  //background-color: transparent;
+  background-color: #fff !important;
+  color: $text-color-highlighted !important;
+  border-color: #fff !important
 }
 
 .header-buttons .btn-primary:hover {
-  background-color: #fff;
-  color: $text-color-highlighted;
-  border-color: #fff
+  background-color: white !important;
+  color: $color-main !important;
+  border-color: #fff !important
 }
 
 .header .copyrights {

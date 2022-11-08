@@ -3332,15 +3332,15 @@ blockquote {
 }
 
 .header-buttons .btn-primary {
-  background-color: transparent;
-  color: #fff;
-  border-color: #fff;
+  background-color: #fff !important;
+  color: #2c3be8 !important;
+  border-color: #fff !important;
 }
 
 .header-buttons .btn-primary:hover {
-  background-color: #fff;
-  color: #2c3be8;
-  border-color: #fff;
+  background-color: white !important;
+  color: #010e47 !important;
+  border-color: #fff !important;
 }
 
 .header .copyrights {
