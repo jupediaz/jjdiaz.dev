@@ -103,7 +103,7 @@ p {
 .page-content {
   position: relative;
   width: 100%;
-  max-width: 1580px;
+  max-width: $max-width;
   min-height: 80vh;
   margin: 10vh auto;
   padding: 0;

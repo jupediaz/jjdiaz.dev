@@ -32,8 +32,8 @@
   ul.main-menu {
     position: absolute;
     padding: 15px 0;
-    width: 70px;
-    right: -90px;
+    width: 60px;
+    right: -80px;
     background-color: #fff;
     border-radius: 35px;
     z-index: 999;
@@ -48,7 +48,7 @@
     display: block;
     position: relative;
     color: #b5b6b7;
-    padding: 10px;
+    padding: 5px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -72,13 +72,13 @@
     visibility: hidden;
     opacity: 0;
     color: #fff;
-    padding: 2px 10px;
+    padding: 10px;
     //background-color: #84B4E0;
     background-color: $background-color-main-1;
     white-space: nowrap;
     right: 0;
     top: -50%;
-    margin-top: 50%;
+    margin-top: 60%;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -295,13 +295,28 @@
     width: 48px;
     right: 10px;
     bottom: 10px;
-    padding: 5px 0;
     //border: 2px solid $color-secondary;
-  }
 
-  .lmpixels-arrows-nav div {
-    font-size: 24px;
-    color: #fff
+    h2 {
+      color: white;
+    }
+
+    div {
+      font-size: 24px;
+      color: #fff;
+    }
+
+    .lmpixels-arrow-right {
+      padding: 6px 0px 10px 6px;
+    }
+
+    .lmpixels-arrow-left {
+      padding: 5px 0px 5px 1px;
+    }
+
+    .lmpixels-arrows-nav div:hover {
+      color: $text-color-highlighted
+    }
   }
 
   .single-page-content .post-content {

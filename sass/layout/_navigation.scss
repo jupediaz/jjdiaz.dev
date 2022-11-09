@@ -32,3 +32,15 @@
 .lmpixels-arrows-nav div:hover {
   color: $nav-arrows-hover;
 }
+
+.lmpixels-arrow-right, .lmpixels-arrow-left {
+  cursor: pointer;
+}
+
+.lmpixels-arrow-right div {
+  padding: 6px 0px 10px 6px;
+}
+
+.lmpixels-arrow-left div {
+  padding: 5px 0px 5px 1px;
+}

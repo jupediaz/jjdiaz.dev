@@ -865,7 +865,7 @@ p {
 .page-content {
   position: relative;
   width: 100%;
-  max-width: 1580px;
+  max-width: 1900px;
   min-height: 80vh;
   margin: 10vh auto;
   padding: 0;
@@ -1108,7 +1108,7 @@ canvas {
   transition: all 0.3s ease-in-out;
 }
 
-.lmpixels-arrows-nav div:hover {
+.lmpixels-arrows-nav h2:hover {
   color: #2c3be8;
 }
 
@@ -1732,7 +1732,7 @@ canvas {
 
 .items li {
   display: inline-block;
-  background-color: darkgreen;
+  background-color: #010e47;
   border-radius: 3px;
   color: #fff;
   padding: 1px 10px;
@@ -2880,6 +2880,18 @@ blockquote {
   color: #2c3be8;
 }
 
+.lmpixels-arrow-right, .lmpixels-arrow-left {
+  cursor: pointer;
+}
+
+.lmpixels-arrow-right div {
+  padding: 6px 0px 10px 6px;
+}
+
+.lmpixels-arrow-left div {
+  padding: 5px 0px 5px 1px;
+}
+
 @media only screen and (max-width: 1580px) {
   .page {
     padding-left: 30px;
@@ -2907,8 +2919,8 @@ blockquote {
   ul.main-menu {
     position: absolute;
     padding: 15px 0;
-    width: 70px;
-    right: -90px;
+    width: 60px;
+    right: -80px;
     background-color: #fff;
     border-radius: 35px;
     z-index: 999;
@@ -2922,7 +2934,7 @@ blockquote {
     display: block;
     position: relative;
     color: #b5b6b7;
-    padding: 10px;
+    padding: 5px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -2942,12 +2954,12 @@ blockquote {
     visibility: hidden;
     opacity: 0;
     color: #fff;
-    padding: 2px 10px;
+    padding: 10px;
     background-color: #010e47;
     white-space: nowrap;
     right: 0;
     top: -50%;
-    margin-top: 50%;
+    margin-top: 60%;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -3138,11 +3150,22 @@ blockquote {
     width: 48px;
     right: 10px;
     bottom: 10px;
-    padding: 5px 0;
+  }
+  .lmpixels-arrows-nav h2 {
+    color: white;
   }
   .lmpixels-arrows-nav div {
     font-size: 24px;
     color: #fff;
+  }
+  .lmpixels-arrows-nav .lmpixels-arrow-right {
+    padding: 6px 0px 10px 6px;
+  }
+  .lmpixels-arrows-nav .lmpixels-arrow-left {
+    padding: 5px 0px 5px 1px;
+  }
+  .lmpixels-arrows-nav .lmpixels-arrows-nav div:hover {
+    color: #2c3be8;
   }
   .single-page-content .post-content {
     position: relative;
