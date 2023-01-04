@@ -1,26 +1,20 @@
 {
-  "name": "jjdiaz.dev",
+  "name": "jjdiaz.dev.2",
   "version": "1.0.0",
-  "description": "JJDiaz Resume",
+  "description": "- 👋 Hi, I’m Jose Diaz - 👀 I’m interested in ... Agile methodologies, clean code and software principles as SOLID, DDD, CQRS, Hexagonal architecture - 🌱 I’m currently learning ... PHP, Symfony, Laravel, Go, Python - 📫 hello@jjdiaz.dev",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-sass":"node-sass sass/main.scss css/main.css --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jupediaz/jjdiaz.dev.git"
+    "url": "git+https://github.com/jupediaz/cv-website.git"
   },
-  "keywords": [
-    "resume"
-  ],
+  "keywords": [],
   "author": "JJDiaz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jupediaz/jjdiaz.dev/issues"
+    "url": "https://github.com/jupediaz/cv-website/issues"
   },
-  "homepage": "https://github.com/jupediaz/jjdiaz.dev#readme",
-  "dependencies": {
-    "node-sass": "^7.0.3"
-  }
+  "homepage": "https://github.com/jupediaz/cv-website#readme"
 }

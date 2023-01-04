@@ -1,25 +1,20 @@
 /* navigation */
 
-.lmpixels-arrows-nav2 {
+.lmpixels-arrows-nav {
   position: absolute;
   padding: 10px 0;
-  width: 60px;
-  right: -80px;
-  background-color: #fff;
-  border-radius: 35px;
-  z-index: 98;
+  width: 70px;
+  /* right: -72px; */
+  left: 0;
   list-style: none;
   bottom: 0;
-  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
+  z-index: 999;
 }
-
 .lmpixels-arrows-nav div {
   display: block;
   position: relative;
   text-align: center;
-  color: $nav-arrows;
+  color: #9baab3;
   padding: 10px;
   font-size: 24px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -28,32 +23,7 @@
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
 .lmpixels-arrows-nav div:hover {
-  color: $nav-arrows-hover;
-}
-
-.lmpixels-arrow-right, .lmpixels-arrow-left {
+  color: #0099e5;
   cursor: pointer;
-}
-
-.lmpixels-arrow-right div {
-  padding: 6px 0px 10px 6px;
-}
-
-.lmpixels-arrow-left div {
-  padding: 5px 0px 5px 1px;
-}
-
-.nav-anim {
-  // display: flex;
-  img {
-    display: inline;
-    vertical-align: middle;
-  }
-
-  span {
-    display: inline;
-  }
-
 }

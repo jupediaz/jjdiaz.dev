@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jose Diaz Moreno - Resume / CV</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Jose Diaz - Resume / CV - jjdiaz.dev</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta name="description" content="Jose Diaz Moreno - Resume / CV"/>
-    <meta name="keywords" content="vcard, responsive, retina, resume, jquery, css3, bootstrap, Material CV"/>
+    <meta name="keywords" content="jjdiaz.dev, blog.jjdiaz.dev, cto, team lead, fullstack, symfony, laravel, api, fastapi, php, go, python, responsive, retina, resume, jquery, css3, bootstrap"/>
     <meta name="author" content="Jose Diaz Moreno"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=1">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=1">
@@ -20,764 +24,904 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PG212MC4RG"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-PG212MC4RG');
-    </script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
 
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
-    <link rel="stylesheet" href="css/animations.css" type="text/css">
-    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/animations.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/owl.carousel.css" type="text/css"> -->
     <!-- <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"> -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/main.css" type="text/css"> -->
 <!--    <link rel="stylesheet" href="css/custom.css" type="text/css">-->
 <!--    <link rel="stylesheet" href="matrix/styles.css">-->
 
-    <script src="https://kit.fontawesome.com/f1f4c53fa1.js" crossorigin="anonymous"></script>
-    <!-- <script src="js/modernizr.custom.js"></script> -->
-</head>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap'); </style>
+  </head>
 
-<body>
+  <body>
+    <!-- Animated Background -->
+    <!-- <div class="lm-animated-bg" style="background-image: url(img/main_bg_1.jpg);"></div> -->
+    <!-- <div class="lm-animated-bg" style="background-image: url(img/backgrounds/planet-volumes-I_fKZ3gSvnY-unsplash.jpg);"></div> -->
+    <div class="lm-animated-bg" style="background-image: url(img/backgrounds/gradienta-bKESVqfxass-unsplash.jpg);"></div>
+    <!-- /Animated Background -->
 
-<canvas id="canv" width="500" height="200"></canvas>
-<!-- Animated Background -->
-<!--<div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>-->
-<!--<div id="canv" width="500" height="200"></div>-->
-<!--<canvas id="canv" width="500" height="200"></canvas>-->
-<!-- /Animated Background -->
-
-<!-- Loading animation -->
-<div class="preloader">
-    <div class="preloader-animation">
-        <div class="preloader-spinner">
-        </div>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7"/>
+          </filter>
+        </defs>
+      </svg>
     </div>
-</div>
-<!-- /Loading animation -->
+    <!-- /Loading animation -->
 
-<div class="page">
-    <div class="page-content">
+    <div class="half-bg"></div>
 
-        <header id="site_header" class="header mobile-menu-hide">
+    <div class="page">
+      <div class="page-content">
+
+          <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
-                <div class="header-photo">
-<!--                    <img src="img/profile_pixel.gif" alt="Jose Diaz">-->
-<!--                    <img src="img/profile.jpg" alt="Jose Diaz">-->
-<!--                    <img src="img/profile_100.jpg" alt="Jose Diaz">-->
-                    <img src="img/profile.jpeg" alt="Jose Diaz">
-                </div>
-                <div class="header-titles">
-<!--                    <h2 id="style" class="text-bg-color-blue">Jose Diaz</h2>-->
-                    <h2 class="bg-text bg-text-yellow">Jose Diaz</h2>
-                    <div class="white-space-10"></div>
-                    <h4 class="retro">CTO</h4>
-                    <h4 class="retro">team lead</h4>
-                    <h4 class="retro">senior full-stack</h4>
-                </div>
+              <!-- <div class="header-lng">
+                <ul>
+                  <li>
+                    <a href="#" class="active">En</a>
+                  </li>
+                  <li>
+                    <a href="#">Fr</a>
+                  </li>
+                </ul>
+              </div> -->
+              <div class="header-photo">
+                <img src="img/profile_100.jpg" alt="Jose Diaz">
+              </div>
+              <div class="header-titles">
+                <h2 class="bg-text bg-text-yellow">Jose Diaz</h2>
+                <h4 class="retro">CTO / Team lead<br>Full-stack dev</h4>
+              </div>
             </div>
 
             <ul class="main-menu">
-                <li class="active">
-                    <a href="#home" class="nav-anim">
-                        <img src="img/home.png" height="50px" alt="home">
-                        <span class="link-text">Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#about-me" class="nav-anim">
-                        <img src="img/love.png" id="random_image" height="50px" alt="about me">
-                        <span class="link-text">About Me</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#work" class="nav-anim">
-                        <img src="img/work_experience.png" height="50px" alt="work experience">
-                        <span class="link-text">Work experience</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#education" class="nav-anim">
-                        <img src="img/education2.png" height="50px" alt="education">
-                        <span class="link-text">Education</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-anim">
-                        <img src="img/contact.png" height="50px" alt="contact">
-                        <span class="link-text">Contact</span>
-                    </a>
-                </li>
+              <li>
+                <a href="#about-me" class="nav-anim">
+                  <span class="menu-icon lnr lnr-user"></span>
+                  <span class="link-text">About Me</span>
+                </a>
+              </li>
+              <li>
+                <a href="#resume" class="nav-anim">
+                  <span class="menu-icon lnr lnr-graduation-hat"></span>
+                  <span class="link-text">Resume</span>
+                </a>
+              </li>
+              <!--
+              <li>
+                <a href="#portfolio" class="nav-anim">
+                  <span class="menu-icon lnr lnr-briefcase"></span>
+                  <span class="link-text">Portfolio</span>
+                </a>
+              </li>
+              -->
+              <li>
+                <a href="https://blog.jjdiaz.dev/" target="_blank" id="blog">
+                  <span class="menu-icon lnr lnr-book"></span>
+                  <span class="link-text">Blog</span>
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-anim">
+                  <span class="menu-icon lnr lnr-envelope"></span>
+                  <span class="link-text">Contact</span>
+                </a>
+              </li>
             </ul>
 
+            <div class="social-links">
+              blogs
+              <ul>
+                <li><a href="https://blog.jjdiaz.dev/" target="_blank" alt="hashnode"><i class="fab fa-hashnode fa-xl"></i></a></li>
+                <li><a href="https://dev.to/jjdiaz" target="_blank" alt="dev"><i class="fab fa-dev fa-xl"></i></a></li>
+                <li><a href="https://medium.com/@josediazmoreno" target="_blank" alt="medium"><i class="fab fa-medium fa-xl"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="social-links">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/josediazmoreno/" target="_blank" alt="linkedin"><i class="fab fa-linkedin-in fa-xl"></i></a></li>
+                <li><a href="https://github.com/jupediaz" target="_blank" alt="github"><i class="fab fa-github fa-xl"></i></a></li>
+              </ul>
+            </div>
+                <!-- </li>
+
+                <li>
+                  <span class="value"><a href="mailto:hello@jjdiaz.dev" class="__cf_email__" data-cfemail="">hello@jjdiaz.dev</a></span>
+                </li> -->
+            
+
             <div class="header-buttons">
-                <a href="resume_jose_diaz.pdf" target="_blank" class="btn btn-primary">Download CV/Resume</a>
-<!--                <a class="framer-158zc41" data-highlight="true" data-reset="button" style="background: linear-gradient(315deg, var(rgb(153, 0, 255);, rgb(153, 0, 255))  0%, var(rgb(0, 136, 255), rgb(0, 136, 255))  100%); opacity: 1; border-radius: 12px; box-shadow: rgba(117, 75, 255, 0) 0px 0px 0px 0px;" href="https://www.framer.com/r/signup/" rel="noreferrer noopener" data-framer-name="Blue -> Light Blue"><div class="framer-1c0mhsd-container" style="opacity: 1;"><section style="display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; opacity: 1; -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); overflow: hidden;"><ul style="display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; gap: 150px; position: relative; flex-direction: row; will-change: transform; transform: translateX(-300.517px);"><li style="display:contents"><div class="framer-1tinflo" data-framer-name="Shimmer" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li><li style="display: contents;"><div class="framer-1tinflo" data-framer-name="Shimmer" data-projection-id="222" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li><li style="display: contents;"><div class="framer-1tinflo" data-framer-name="Shimmer" data-projection-id="223" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li></ul></section></div><div class="framer-1pd6hcf" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;&#45;&#45;extracted-1of0zx5:rgb(255, 255, 255);&#45;&#45;framer-paragraph-spacing:0px;opacity:1;transform:none" data-framer-component-type="RichTextContainer"><h2 style="&#45;&#45;font-selector:Q1VTVE9NO0dUIFdhbHNoZWltIEJvbGQ=;&#45;&#45;framer-font-family:&quot;GT Walsheim Bold&quot;, serif;&#45;&#45;framer-font-size:30px;&#45;&#45;framer-letter-spacing:-1px;&#45;&#45;framer-text-alignment:center;&#45;&#45;framer-text-color:var(&#45;&#45;extracted-1of0zx5)" class="framer-text">Start for Free</h2></div></a>-->
-<!--                <div class="framer-9leq0y-container hidden-ddhohv"><div data-framer-generated="true" class="framer-12YyN framer-v-158zc41" style="display:contents;pointer-events:auto"><a class="framer-158zc41" data-highlight="true" data-reset="button" style="background: linear-gradient(315deg, var(rgb(153, 0, 255), rgb(153, 0, 255))  0%, var(rgb(0, 136, 255), rgb(0, 136, 255))  100%); opacity: 1; border-radius: 12px; box-shadow: rgba(117, 75, 255, 0) 0px 0px 0px 0px;" href="https://www.framer.com/r/signup/" rel="noreferrer noopener" data-framer-name="Blue -> Light Blue"><div class="framer-1c0mhsd-container" style="opacity: 1;"><section style="display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; opacity: 1; -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); overflow: hidden;"><ul style="display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; gap: 150px; position: relative; flex-direction: row; will-change: transform; transform: translateX(-460.103px);"><li style="display:contents"><div class="framer-1tinflo" data-framer-name="Shimmer" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li><li style="display: contents;"><div class="framer-1tinflo" data-framer-name="Shimmer" data-projection-id="222" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li><li style="display: contents;"><div class="framer-1tinflo" data-framer-name="Shimmer" data-projection-id="223" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li></ul></section></div><div class="framer-1pd6hcf" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;&#45;&#45;extracted-1of0zx5:rgb(255, 255, 255);&#45;&#45;framer-paragraph-spacing:0px;opacity:1;transform:none" data-framer-component-type="RichTextContainer"><h2 style="&#45;&#45;font-selector:Q1VTVE9NO0dUIFdhbHNoZWltIEJvbGQ=;&#45;&#45;framer-font-family:&quot;GT Walsheim Bold&quot;, serif;&#45;&#45;framer-font-size:30px;&#45;&#45;framer-letter-spacing:-1px;&#45;&#45;framer-text-alignment:center;&#45;&#45;framer-text-color:var(&#45;&#45;extracted-1of0zx5)" class="framer-text">Start for Free</h2></div></a></div></div>-->
-
-<!--                <div class="framer-9leq0y-container hidden-ddhohv"><div data-framer-generated="true" class="framer-12YyN framer-v-158zc41" style="display:contents;pointer-events:auto"><a class="framer-158zc41" data-highlight="true" data-reset="button" style="background: linear-gradient(315deg, var(&#45;&#45;token-66dfdba2-b084-43a3-a18d-237c2893b6a7, rgb(153, 0, 255))  0%, var(&#45;&#45;token-bd71055c-0a2c-4476-8cc9-4310acba652d, rgb(0, 136, 255))  100%); opacity: 1; border-radius: 12px; box-shadow: rgba(117, 75, 255, 0) 0px 0px 0px 0px;" href="resume_jose_diaz.pdf" rel="noreferrer noopener" data-framer-name="Blue -> Light Blue"><div class="framer-1c0mhsd-container" style="opacity: 1;"><section style="display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; opacity: 1; -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%); overflow: hidden;"><ul style="display: flex; width: 100%; height: 100%; max-width: 100%; max-height: 100%; place-items: center; margin: 0px; padding: 0px; list-style-type: none; gap: 150px; position: relative; flex-direction: row; will-change: transform; transform: translateX(-190.005px);"><li style="display:contents"><div class="framer-1tinflo" data-framer-name="Shimmer" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li><li style="display: contents;"><div class="framer-1tinflo" data-framer-name="Shimmer" data-projection-id="222" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li><li style="display: contents;"><div class="framer-1tinflo" data-framer-name="Shimmer" data-projection-id="223" style="background: radial-gradient(50% 3544.5% at 50% 50%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%); flex-shrink: 0; opacity: 1;"></div></li></ul></section></div><div class="framer-1pd6hcf" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;&#45;&#45;extracted-1of0zx5:rgb(255, 255, 255);&#45;&#45;framer-paragraph-spacing:0px;opacity:1;transform:none" data-framer-component-type="RichTextContainer"><h2 style="&#45;&#45;font-selector:Q1VTVE9NO0dUIFdhbHNoZWltIEJvbGQ=;&#45;&#45;framer-font-family:&quot;GT Walsheim Bold&quot;, serif;&#45;&#45;framer-font-size:30px;&#45;&#45;framer-letter-spacing:-1px;&#45;&#45;framer-text-alignment:center;&#45;&#45;framer-text-color:var(&#45;&#45;extracted-1of0zx5)" class="framer-text">Start for Free</h2></div></a></div></div>-->
+              <a href="resume_jose_diaz.pdf" target="_blank" class="btn btn-primary">Download CV</a>
             </div>
 
-            <div class="social-links">
-                <a href="https://blog.jjdiaz.dev/" target="_blank" class="retro" style="color:white;text-decoration: underline;">blog.jjdiaz.dev</a>
-            </div>
+            <div class="copyrights">made with love from sunny Malaga<br>© 2023 all rights reserved</div>
+          </header>
 
-            <div class="social-links">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/josediazmoreno/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/jupediaz" target="_blank"><i class="fab fa-github"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="copyrights">© 2022 All rights reserved</div>
-        </header>
-
-        <!-- Mobile Navigation -->
-        <div class="menu-toggle">
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
             <span></span>
             <span></span>
             <span></span>
-        </div>
-        <!-- End Mobile Navigation -->
+          </div>
+          <!-- End Mobile Navigation -->
 
-        <!-- Arrows Nav -->
-        <div class="lmpixels-arrows-nav">
-            <div class="lmpixels-arrow-right"><h2 class="retro">><!--<i class="lnr lnr-chevron-right"></i>--></h2></div>
-            <div class="lmpixels-arrow-left"><h2 class="retro">&#60;<!--<i class="lnr lnr-chevron-left"></i>--></h2></div>
-        </div>
-        <!-- End Arrows Nav -->
+          <!-- Arrows Nav -->
+          <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+          </div>
+          <!-- End Arrows Nav -->
 
-        <div class="content-area">
+          <div class="content-area">
             <div class="animated-sections">
-                <!-- Home Subpage -->
-                <section data-id="home" class="animated-section start-page">
-                    <div class="section-content vcentered">
+
+              <!-- About Me Subpage -->
+              <section data-id="about-me" class="animated-section">
+                <div class="section-content">
+
+                  <div class="row flex-v-align">
+                      <div class="col-sm-12 col-md-10 col-lg-10">
+                        <div class="home-text hp-left">
+                          <div class="page-title">
+                            <h2>&#60;about_<span>me</span>></h2>
+                          </div>
+
+                          <h1 class="bg-text bg-text-purple">Jose Diaz</h1>
+                          <div class="owl-carousel text-rotation">                                    
+                            <div class="item">
+                              <h4 class="retro">CTO</h4>
+                            </div>
+                            <div class="item">
+                              <h4 class="retro">Team lead</h4>
+                            </div>
+                            <div class="item">
+                              <h4 class="retro">Fullstack</h4>
+                            </div>
+                          </div>
+
+                          <p>Head of IT @ IMCW. +15 years experience.</p>
+                          <p>With over 15 years of experience in software development, I am highly skilled in building scalable and clean code software.</p>
+                          <p>Passionate about crafting efficient and effective solutions and have successfully led software development teams through the entire development process, from conceptualization to deployment in production environments.</p>
+                          <p>Constantly seek to improve and grow professionally and am fearless in taking on new challenges. My strong desire to learn and evolve helps drive my success in the field.</p>                            
+                          <p>I have a track record of consistently delivering high-quality software solutions to my clients and am dedicated to achieving optimal results.</p>
+                          <p>Confident in contributing value to any project and am eager to apply my skills and expertise to new opportunities.</p>
+
+                          <div class="home-buttons">
+                            <a href="resume_jose_diaz.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+                            <a href="#contact" target="_self" class="btn btn-secondary">Contact</a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-sm-12 col-md-2 col-lg-2">
+                        <img src="img/image_computer_monkey_dott.png" alt="computer monkey dott">
+                        <!-- <div class="home-photo">
+                            <div class="hp-inner" style="background-image: url(img/image_computer_monkey_dott.png);"></div>
+                        </div> -->
+                      </div>
+
+                      <!-- <div class="col-sm-12 col-md-6 col-lg-6">
+                          <div class="home-photo">
+                              <div class="hp-inner" style="background-image: url(img/profile_pixel.gif)" ></div>
+                          </div>
+                      </div> -->
+                  </div>
+
+                  <div class="white-space-70"></div>
+
+                  <!-- Technologies -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>&#60;technologies></h3>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="technologies">
 
                         <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <div class="title-block">
-                                    <h2 class="bg-text bg-text-purple">Jose Diaz</h2>
-                                    <div class="white-space-50"></div>
-                                    <div class="owl-carousel text-rotation">
-                                        <div class="item">
-<!--                                            <div class="sp-subtitle typing-demo retro" style="width:3ch">CTO</div>-->
-                                            <div class="sp-subtitle typing-demo retro">CTO</div>
-                                        </div>
+                          <a href="#" target="_blank" title="AWS">
+                            <img src="img/logos/aws.png" alt="AWS">
+                          </a>
+                          <a href="#" target="_blank" title="Docker">
+                            <img src="img/logos/docker.png" alt="Docker">
+                          </a>
+                          <a href="#" target="_blank" title="FlutterFlow">
+                            <img src="img/logos/flutterflow.png" alt="FlutterFlow">
+                          </a>
+                          <a href="#" target="_blank" title="Git">
+                            <img src="img/logos/git.png" alt="Git">
+                          </a>
+                          <a href="#" target="_blank" title="GO">
+                            <img src="img/logos/go.png" alt="GO">
+                          </a>
+                          <a href="#" target="_blank" title="Javascript">
+                            <img src="img/logos/javascript.png" alt="Javascript">
+                          </a>
+                          <a href="#" target="_blank" title="jQuery">
+                            <img src="img/logos/jquery.png" alt="jQuery">
+                          </a>
+                          <a href="#" target="_blank" title="Kubernetes">
+                            <img src="img/logos/kubernetes.png" alt="Kubernetes">
+                          </a>
+                          <a href="#" target="_blank" title="Laravel">
+                            <img src="img/logos/laravel.png" alt="Laravel">
+                          </a>
+                          <a href="#" target="_blank" title="MariaDB">
+                            <img src="img/logos/mariadb.png" alt="MariaDB">
+                          </a>
+                          <a href="#" target="_blank" title="MongoDB">
+                            <img src="img/logos/mongodb.png" alt="MongoDB">
+                          </a>
+                          <a href="#" target="_blank" title="MySQL">
+                            <img src="img/logos/mysql.png" alt="MySQL">
+                          </a>
+                          <a href="#" target="_blank" title="npm">
+                            <img src="img/logos/npm.png" alt="npm">
+                          </a>
+                          <a href="#" target="_blank" title="PHP">
+                            <img src="img/logos/php.png" alt="PHP">
+                          </a>
+                          <a href="#" target="_blank" title="PostgreSQL">
+                            <img src="img/logos/postgresql.png" alt="PostgreSQL">
+                          </a>
+                          <a href="#" target="_blank" title="Python">
+                            <img src="img/logos/python.png" alt="Python">
+                          </a>
+                          <a href="#" target="_blank" title="React">
+                            <img src="img/logos/react.png" alt="React">
+                          </a>
+                          <a href="#" target="_blank" title="Symfony">
+                            <img src="img/logos/symfony.png" alt="Symfony">
+                          </a>
+                          <a href="#" target="_blank" title="Typescript">
+                            <img src="img/logos/typescript.png" alt="Typescript">
+                          </a>
+                          <a href="#" target="_blank" title="Visual Studio Code">
+                            <img src="img/logos/vscode.png" alt="Visual Studio Code">
+                          </a>
+                          <a href="#" target="_blank" title="Vue">
+                            <img src="img/logos/vuejs.png" alt="Vue">
+                          </a>
+                        </div>
+    
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Technologies -->
+                  
+                  <!-- Fun Facts -->
+                  <!--
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-heart"></i>
+                        <h4>Happy Clients</h4>
+                        <span class="fun-fact-block-value">578</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
 
-                                        <div class="item">
-<!--                                            <div class="sp-subtitle typing-demo retro" style="width:9ch">team lead</div>-->
-                                            <div class="sp-subtitle typing-demo retro">team lead</div>
-                                        </div>
+                    <div class="col-xs-12 col-sm-4">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-clock"></i>
+                        <h4>Working Hours</h4>
+                        <span class="fun-fact-block-value">4,780</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
 
-                                        <div class="item">
-<!--                                            <div class="sp-subtitle typing-demo retro" style="width:27ch">senior full-stack developer</div>-->
-                                            <div class="sp-subtitle typing-demo retro">senior full-stack developer</div>
-                                        </div>
+                    <div class="col-xs-12 col-sm-4 ">
+                      <div class="fun-fact gray-default">
+                        <i class="lnr lnr-star"></i>
+                        <h4>Awards Won</h4>
+                        <span class="fun-fact-block-value">15</span>
+                        <span class="fun-fact-block-text"></span>
+                      </div>
+                    </div>
+                  </div>
+                  -->
+                  <!-- End of Fun Facts -->
+
+                  <div class="white-space-70"></div>
+
+                  <!-- Services -->
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="block-title">
+                            <h3>&#60;what_do_<span>i_do</span>></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="col-inner">
+                            <div class="info-list-w-icon">
+                                <div class="info-block-w-icon">
+                                    <div class="ci-icon">
+                                        <i class="lnr lnr-laptop-phone"></i>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </section>
-                <!-- End of Home Subpage -->
-
-                <!-- About Me Subpage -->
-                <section data-id="about-me" class="animated-section">
-                    <div class="page-title">
-                        <h2>&#60;about_<span>me</span>></h2>
-                    </div>
-
-                    <div class="section-content">
-                        <!-- Personal Information -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <p>
-                                    Passionate about building scalable and clean code software.
-                                    Experience leading software development teams and building applications from scratch to deploy them to production environments.
-                                </p>
-                                <p>
-                                    Courageous to face new challenges and without barriers at work, to evolve and improve professionally. Eager to learn and improve.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End of Personal Information -->
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Services -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>&#60;what_do_<span>i_do</span>></h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="col-inner">
-                                    <div class="info-list-w-icon">
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="lnr lnr-laptop-phone"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Full-stack development</h4>
+                                    <div class="ci-text">
+                                        <h4>Full-stack development</h4>
 <!--                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio-->
 <!--                                                    tortor bibendum massa, sit amet ultricies ex lectus scelerisque-->
 <!--                                                    nibh. Ut non sodales.</p>-->
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="col-inner">
-                                    <div class="info-list-w-icon">
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="lnr lnr-smartphone"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Mobile apps</h4>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="col-inner">
+                            <div class="info-list-w-icon">
+                                <div class="info-block-w-icon">
+                                    <div class="ci-icon">
+                                        <i class="lnr lnr-smartphone"></i>
+                                    </div>
+                                    <div class="ci-text">
+                                        <h4>Mobile apps</h4>
 <!--                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio-->
 <!--                                                    tortor bibendum massa, sit amet ultricies ex lectus scelerisque-->
 <!--                                                    nibh. Ut non sodales.</p>-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="col-inner">
-                                    <div class="info-list-w-icon">
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="lnr lnr-flag"></i>
-                                            </div>
-                                            <div class="ci-text">
-                                                <h4>Team lead & management</h4>
-                                                <!--                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio-->
-                                                <!--                                                    tortor bibendum massa, sit amet ultricies ex lectus scelerisque-->
-                                                <!--                                                    nibh. Ut non sodales.</p>-->
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End of Services -->
+                    </div>
 
-                        <div class="white-space-50"></div>
-
-                        <!-- Relocation -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>&#60;can_i_<span>relocate</span>></h3>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="col-inner">
+                            <div class="info-list-w-icon">
+                                <div class="info-block-w-icon">
+                                    <div class="ci-icon">
+                                        <i class="lnr lnr-flag"></i>
+                                    </div>
+                                    <div class="ci-text">
+                                        <h4>Team lead & management</h4>
+                                        <!--                                                <p>Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio-->
+                                        <!--                                                    tortor bibendum massa, sit amet ultricies ex lectus scelerisque-->
+                                        <!--                                                    nibh. Ut non sodales.</p>-->
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- End of Services -->
 
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <p>
-                                    I like the idea of relocating, but I'm divorced and have a small kid, so I don't want to be far away from him.
-                                </p>
-                                <br/>
-                                <p>
-                                    But I'm open to travel when needed.
-                                </p>
-                            </div>
+                <div class="white-space-70"></div>
+
+                <!-- Relocation -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                          <h3>&#60;relocation></h3>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <p>
+                          I am willing to relocate, but I have a small child and am currently divorced, so I prefer to remain close to him. However, I am open to travel as needed for work.
+                        </p>
+                    </div>
+                </div>
+                <!-- End of Relocation -->
+
+                </div>
+              </section>
+              <!-- End of About Me Subpage -->
+
+              <!-- Resume Subpage -->
+              <section data-id="resume" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>&#60;work_experience></h2>
+                    <h4 class="retro">+15 Years of Experience</h4>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-7">
+                    <!--
+                      <div class="block-title">
+                        <h3>Education</h3>
+                      </div>
+                      
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2008</h5>
+                            <span class="item-company">University of Studies</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Frontend Development</h4>
+                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p>
+                          </div>
                         </div>
-                        <!-- End of Relocation -->
 
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2007</h5>
+                            <span class="item-company">University of Studies</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Graphic Design</h4>
+                            <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="white-space-50"></div>
+                    -->
+
+                    <!--
+                      <div class="block-title">
+                        <h3>Experience</h3>
+                      </div>
+
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2016 - Current</h5>
+                            <span class="item-company">Google</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Lead Ui/Ux Designer</h4>
+                            <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>
+                          </div>
+                        </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2013 - 2016</h5>
+                            <span class="item-company">Adobe</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Senior Ui/Ux Designer</h4>
+                            <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam.</p>
+                          </div>
+                        </div>
+                        
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">2011 - 2013</h5>
+                            <span class="item-company">Google</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Junior Ui/Ux Designer</h4>
+                            <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet.</p>
+                          </div>
+                        </div>
+                      </div>
+                    -->
+
+                    <div class="block-title">
+                      <h3>$i-><span>experience</span></h3>
                     </div>
-                </section>
-                <!-- End of About Me Subpage -->
 
-                <!-- Work Subpage -->
-                <section data-id="work" class="animated-section">
-                    <div class="page-title">
-                        <h2>&#60;work_experience></h2>
-                    </div>
-
-                    <div class="section-content">
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-7">
-                                <div class="block-title">
-                                    <h3>$i-><span>experience</span></h3>
-                                </div>
-
-                                <div class="timeline timeline-second-style clearfix">
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">? - ?</h5>
-                                            <span class="item-company">?</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">[info_being_updated]</h4>
-                                            <p>This area is being updated, try again later.</p>
-                                            <p>You can also check all of the information on <a href="./resume_jose_diaz.pdf" target="_blank"><strong>my PDF resume here</strong></a> on this page, or at my <a href="https://www.linkedin.com/in/josediazmoreno/" target="_blank"><strong>LinkedIn</strong></a></p>
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                              <h5 class="item-period">? - ?</h5>
+                              <span class="item-company">?</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                              <h4 class="item-title">[info_being_updated]</h4>
+                              <p>This area is being updated, try again later.</p>
+                              <p>You can also check all of the information on <a href="./resume_jose_diaz.pdf" target="_blank"><strong>my PDF resume here</strong></a> on this page, or at my <a href="https://www.linkedin.com/in/josediazmoreno/" target="_blank"><strong>LinkedIn</strong></a></p>
 <!--                                            <div><a href="https://laravel.com/" target="_blank"><img src="img/logos/laravel.png" height="70" alt="Laravel"></a></div>-->
 <!--                                            <div><a href="https://laravel.com/" target="_blank"><img src="img/logos/laravel2.png" height="70" alt="Laravel"></a></div>-->
-                                        </div>
-                                    </div>
-                                </div>
-<!--                                <div class="timeline timeline-second-style clearfix">-->
-<!--                                    <div class="timeline-item clearfix">-->
-<!--                                        <div class="left-part">-->
-<!--                                            <h5 class="item-period">2016 - Current</h5>-->
-<!--                                            <span class="item-company">Google</span>-->
-<!--                                        </div>-->
-<!--                                        <div class="divider"></div>-->
-<!--                                        <div class="right-part">-->
-<!--                                            <h4 class="item-title">Lead Ui/Ux Designer</h4>-->
-<!--                                            <p>Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis.-->
-<!--                                                Phasellus eleifend tristique posuere. Sed vitae dui nec magna.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-
-<!--                                    <div class="timeline-item clearfix">-->
-<!--                                        <div class="left-part">-->
-<!--                                            <h5 class="item-period">2013 - 2016</h5>-->
-<!--                                            <span class="item-company">Adobe</span>-->
-<!--                                        </div>-->
-<!--                                        <div class="divider"></div>-->
-<!--                                        <div class="right-part">-->
-<!--                                            <h4 class="item-title">Senior Ui/Ux Designer</h4>-->
-<!--                                            <p>Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla-->
-<!--                                                tristique, ornare felis id, congue libero. Nam volutpat euismod-->
-<!--                                                quam.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-
-<!--                                    <div class="timeline-item clearfix">-->
-<!--                                        <div class="left-part">-->
-<!--                                            <h5 class="item-period">2011 - 2013</h5>-->
-<!--                                            <span class="item-company">Google</span>-->
-<!--                                        </div>-->
-<!--                                        <div class="divider"></div>-->
-<!--                                        <div class="right-part">-->
-<!--                                            <h4 class="item-title">Junior Ui/Ux Designer</h4>-->
-<!--                                            <p>Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue-->
-<!--                                                vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit-->
-<!--                                                amet.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-                            </div>
-
-                            <!-- Skills -->
-                            <div class="col-xs-12 col-sm-5">
-                                <!-- Roles of interest -->
-                                <div class="block-title">
-                                    <h3>$i-><span>roles_of_interest</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>CTO</li>
-                                    <li>lead developer</li>
-                                    <li>senior full-stack developer</li>
-                                </ul>
-                                <!-- End of roles of interest -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Technologies -->
-                                <div class="block-title">
-                                    <h3>$i-><span>technologies</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>php</li>
-                                    <li>laravel</li>
-                                    <li>symfony</li>
-                                    <li>testing</li>
-                                    <li>debugging</li>
-                                    <li>javascript</li>
-                                    <li>mysql</li>
-                                    <li>python</li>
-                                    <li>git</li>
-                                    <li>api</li>
-                                    <li>graphql</li>
-                                    <li>docker</li>
-                                    <li>kubernetes</li>
-                                    <li>aws</li>
-                                    <li>typescript</li>
-                                    <li>react</li>
-                                    <li>vue</li>
-                                    <li>jquery</li>
-                                    <li>postgresql</li>
-                                    <li>mongodb</li>
-                                    <li>go</li>
-                                    <li>mariadb</li>
-                                    <li>flutterflow</li>
-                                    <li>ionic</li>
-                                </ul>
-                                <!-- End of Technologies -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Hard Skills -->
-                                <div class="block-title">
-                                    <h3>$i-><span>hard_skills</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>full-stack development</li>
-                                    <li>mobile development</li>
-                                    <li>hexagonal architecture</li>
-                                    <li>SOLID</li>
-                                    <li>DDD</li>
-                                    <li>CQRS</li>
-                                    <li>PSR</li>
-                                    <li>testing</li>
-                                    <li>api & microservices lover</li>
-                                </ul>
-                                <!-- End of Hard skills -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Soft skills -->
-                                <div class="block-title">
-                                    <h3>$i-><span>soft_skills</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>communication and teamwork</li>
-                                    <li>leadership</li>
-                                    <li>creative</li>
-                                    <li>proactive</li>
-                                    <li>curiosity</li>
-                                    <li>problem-solving</li>
-                                    <li>adaptability and flexibility</li>
-                                    <li>attention to detail</li>
-                                    <li>humble</li>
-                                    <li>empathic</li>
-                                    <li>analytical reasoning</li>
-                                    <li>positive attitude</li>
-                                    <li>listening skills</li>
-                                    <li>taking responsibility</li>
-                                </ul>
-                                <!-- End of Soft skills -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Languages -->
-                                <div class="block-title">
-                                    <h3>$i-><span>languages</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>spanish -> native</li>
-                                    <li>english -> professional</li>
-                                </ul>
-                                <!-- End of Languages -->
-                            </div>
-                            <!-- End of Skills -->
+                          </div>
                         </div>
-
-                        <div class="white-space-50"></div>
+                      </div>
 
                     </div>
-                </section>
-                <!-- End of Work Subpage -->
 
-                <!-- Education Subpage -->
-                <section data-id="education" class="animated-section">
-                    <div class="page-title">
-                        <h2>&#60;education></h2>
+                    <!-- Skills & Certificates -->
+                    <div class="col-xs-12 col-sm-5">
+                      <!-- Skills -->
+                      <div class="skills-title">
+                        <h3>$i-&gt;<span>roles_of_interest</span></h3>
+                      </div>
+
+                      <ul class="skills">
+                        <li>CTO</li>
+                        <li>lead developer</li>
+                        <li>senior full-stack developer</li>
+                      </ul>
+                      <!-- End of Skills -->
+
+                      <div class="white-space-30"></div>
+
+                      <!-- Skills -->
+                      <div class="skills-title">
+                        <h3>$i-&gt;<span>technologies</span></h3>
+                      </div>
+
+                      <ul class="skills">
+                        <li>php</li>
+                        <li>laravel</li>
+                        <li>symfony</li>
+                        <li>testing</li>
+                        <li>debugging</li>
+                        <li>javascript</li>
+                        <li>mysql</li>
+                        <li>python</li>
+                        <li>git</li>
+                        <li>api</li>
+                        <li>graphql</li>
+                        <li>docker</li>
+                        <li>kubernetes</li>
+                        <li>aws</li>
+                        <li>typescript</li>
+                        <li>react</li>
+                        <li>vue</li>
+                        <li>jquery</li>
+                        <li>postgresql</li>
+                        <li>mongodb</li>
+                        <li>go</li>
+                        <li>mariadb</li>
+                        <li>flutterflow</li>
+                        <li>node.js</li>
+                      </ul>
+                      <!-- End of Skills -->
+
+                      <div class="white-space-30"></div>
+
+                      <!-- Skills -->
+                      <div class="skills-title">
+                        <h3>$i-&gt;<span>hard_skills</span></h3>
+                      </div>
+
+                      <ul class="skills">
+                        <li>full-stack development</li>
+                        <li>mobile development</li>
+                        <li>hexagonal architecture</li>
+                        <li>SOLID</li>
+                        <li>DDD</li>
+                        <li>CQRS</li>
+                        <li>PSR</li>
+                        <li>testing</li>
+                        <li>api & microservices lover</li>
+                      </ul>
+                      <!-- End of Skills -->
+
+                      <div class="white-space-30"></div>
+
+                      <!-- Skills -->
+                      <div class="skills-title">
+                        <h3>$i-&gt;<span>soft_skills</span></h3>
+                      </div>
+
+                      <ul class="skills">
+                        <li>communication and teamwork</li>
+                        <li>leadership</li>
+                        <li>creative</li>
+                        <li>proactive</li>
+                        <li>curiosity</li>
+                        <li>problem-solving</li>
+                        <li>adaptability and flexibility</li>
+                        <li>attention to detail</li>
+                        <li>humble</li>
+                        <li>empathic</li>
+                        <li>analytical reasoning</li>
+                        <li>positive attitude</li>
+                        <li>listening skills</li>
+                        <li>taking responsibility</li>
+                      </ul>
+                      <!-- End of Skills -->
                     </div>
+                    <!-- End of Skills & Certificates -->
+                  </div>
 
-                    <div class="section-content">
+                  <div class="white-space-50"></div>
 
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-7">
-                                <div class="white-space-50"></div>
-
-                                <div class="block-title">
-                                    <h3>$i-><span>education</span></h3>
-                                </div>
-
-                                <div class="timeline timeline-second-style clearfix">
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">? - ?</h5>
-                                            <span class="item-company">?</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">[info_being_updated]</h4>
-                                            <p>This area is being updated, try again later.</p>
-                                            <p>You can also check all of the information on <a href="./resume_jose_diaz.pdf" target="_blank"><strong>my PDF resume here</strong></a> on this page, or at my <a href="https://www.linkedin.com/in/josediazmoreno/" target="_blank"><strong>LinkedIn</strong></a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--                                <div class="timeline timeline-second-style clearfix">-->
-                                <!--                                    <div class="timeline-item clearfix">-->
-                                <!--                                        <div class="left-part">-->
-                                <!--                                            <h5 class="item-period">2008</h5>-->
-                                <!--                                            <span class="item-company">University of Studies</span>-->
-                                <!--                                        </div>-->
-                                <!--                                        <div class="divider"></div>-->
-                                <!--                                        <div class="right-part">-->
-                                <!--                                            <h4 class="item-title">Frontend Development</h4>-->
-                                <!--                                            <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam-->
-                                <!--                                                sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis-->
-                                <!--                                                ante.</p>-->
-                                <!--                                        </div>-->
-                                <!--                                    </div>-->
-
-                                <!--                                    <div class="timeline-item clearfix">-->
-                                <!--                                        <div class="left-part">-->
-                                <!--                                            <h5 class="item-period">2007</h5>-->
-                                <!--                                            <span class="item-company">University of Studies</span>-->
-                                <!--                                        </div>-->
-                                <!--                                        <div class="divider"></div>-->
-                                <!--                                        <div class="right-part">-->
-                                <!--                                            <h4 class="item-title">Graphic Design</h4>-->
-                                <!--                                            <p>Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis,-->
-                                <!--                                                feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu-->
-                                <!--                                                pulvinar dolor.</p>-->
-                                <!--                                        </div>-->
-                                <!--                                    </div>-->
-                                <!--                                </div>-->
-                            </div>
-
-                            <!-- Skills -->
-                            <div class="col-xs-12 col-sm-5">
-                                <!-- Roles of interest -->
-                                <div class="block-title">
-                                    <h3>$i-><span>roles_of_interest</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>CTO</li>
-                                    <li>lead developer</li>
-                                    <li>senior full-stack developer</li>
-                                </ul>
-                                <!-- End of roles of interest -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Technologies -->
-                                <div class="block-title">
-                                    <h3>$i-><span>technologies</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>php</li>
-                                    <li>laravel</li>
-                                    <li>symfony</li>
-                                    <li>testing</li>
-                                    <li>debugging</li>
-                                    <li>javascript</li>
-                                    <li>mysql</li>
-                                    <li>python</li>
-                                    <li>git</li>
-                                    <li>api</li>
-                                    <li>graphql</li>
-                                    <li>docker</li>
-                                    <li>kubernetes</li>
-                                    <li>aws</li>
-                                    <li>typescript</li>
-                                    <li>react</li>
-                                    <li>vue</li>
-                                    <li>jquery</li>
-                                    <li>postgresql</li>
-                                    <li>mongodb</li>
-                                    <li>go</li>
-                                    <li>mariadb</li>
-                                    <li>flutterflow</li>
-                                    <li>ionic</li>
-                                </ul>
-                                <!-- End of Technologies -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Hard Skills -->
-                                <div class="block-title">
-                                    <h3>$i-><span>hard_skills</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>full-stack development</li>
-                                    <li>mobile development</li>
-                                    <li>hexagonal architecture</li>
-                                    <li>SOLID</li>
-                                    <li>DDD</li>
-                                    <li>CQRS</li>
-                                    <li>PSR</li>
-                                    <li>testing</li>
-                                    <li>api & microservices lover</li>
-                                </ul>
-                                <!-- End of Hard skills -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Soft skills -->
-                                <div class="block-title">
-                                    <h3>$i-><span>soft_skills</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>communication and teamwork</li>
-                                    <li>leadership</li>
-                                    <li>creative</li>
-                                    <li>proactive</li>
-                                    <li>curiosity</li>
-                                    <li>problem-solving</li>
-                                    <li>adaptability and flexibility</li>
-                                    <li>attention to detail</li>
-                                    <li>humble</li>
-                                    <li>empathic</li>
-                                    <li>analytical reasoning</li>
-                                    <li>positive attitude</li>
-                                    <li>listening skills</li>
-                                    <li>taking responsibility</li>
-                                </ul>
-                                <!-- End of Soft skills -->
-
-                                <div class="white-space-50"></div>
-
-                                <!-- Languages -->
-                                <div class="block-title">
-                                    <h3>$i-><span>languages</span></h3>
-                                </div>
-                                <ul class="items">
-                                    <li>spanish -> native</li>
-                                    <li>english -> professional</li>
-                                </ul>
-                                <!-- End of Languages -->
-                            </div>
-                            <!-- End of Skills -->
+                  <!-- Certificates -->
+                  <!--
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div class="block-title">
+                        <h3>Certificates</h3>
+                      </div>
+                    </div>
+                  </div>                 
+                  
+                  <div class="row">
+                    <!-- Certificate 1 -->
+                    <!--
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="img/clients/client-1.png" alt="logo">
                         </div>
-
-                        <div class="white-space-50"></div>
-
-                    </div>
-                </section>
-                <!-- End of Education Subpage -->
-
-                <!-- Contact Subpage -->
-                <section data-id="contact" class="animated-section">
-                    <div class="page-title">
-                        <h2>&#60;contact></h2>
-                    </div>
-
-                    <div class="section-content">
-
-                        <div class="row">
-                            <!-- Contact Info -->
-                            <div class="col-xs-12 col-sm-12">
-                                <div id="map" class="map">
-                                    <div class="lmpixels-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635896.2547236609!2d-6.39818777681038!3d36.79191598546832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1667475131336!5m2!1sen!2ses" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Contact Info -->
-
-                            <!-- Contact Form -->
-                                <div class="col-xs-12 col-sm-2">
-                                    <div class="lm-info-block gray-default">
-                                        <i class="lnr lnr-map-marker"></i>
-                                        <h4>Malaga, Spain</h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-2">
-                                    <div class="lm-info-block gray-default">
-                                        <i class="lnr lnr-checkmark-circle"></i>
-                                        <h4>Full-time / Freelance / Contractor Available</h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-2">
-                                    <div class="lm-info-block gray-default">
-                                        <a href="https://blog.jjdiaz.dev" target="_blank">
-                                            <i class="lnr lnr-pencil"></i>
-                                            <h4>Blog</h4>
-                                        </a>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-2">
-                                    <div class="lm-info-block gray-default">
-                                        <i class="lnr lnr-envelope"></i>
-                                        <h4><script type="text/javascript"><!--/* Generated by www.email-encoder.com */
-                                        for(var poxqca=["ZA","ag","QA","Zg","ZA","bw","bw","aQ","aQ","Pg","bA","ZQ","bA","PQ","Ig","bw","QA","aA","Og","cg","dA","PA","Lg","dg","YQ","ag","ZQ","PA","aA","IA","aQ","YQ","Pg","bA","Lg","YQ","ZA","ZQ","Ig","Lw","eg","YQ","YQ","dg","bQ","ZQ","bA","ag","aA","ag","bA","ZA","ZQ","eg"],qrjjpy=[47,41,21,6,24,14,20,11,25,53,19,30,12,7,32,38,39,3,15,4,13,50,46,49,26,23,35,0,16,2,43,1,33,36,28,10,42,17,8,51,45,52,44,31,9,5,37,40,34,22,18,29,48,27],lgwkkj=new Array,i=0;i<qrjjpy.length;i++)lgwkkj[qrjjpy[i]]=poxqca[i];for(var i=0;i<lgwkkj.length;i++)document.write(atob(lgwkkj[i]+"=="));
-                                        // --></script><noscript>Please enable JavaScript to see the email address (<a href="https://www.email-encoder.com/enablejs/" target="_blank" rel="noopener noreferrer">How-to</a>).</noscript></h4>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-2">
-                                    <div class="lm-info-block gray-default">
-                                        <a href="https://www.linkedin.com/in/josediazmoreno/" target="_blank">
-                                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                                            <h4>LinkedIn</h4>
-                                        </a>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-2">
-                                    <div class="lm-info-block gray-default">
-                                        <a href="https://github.com/jupediaz" target="_blank">
-                                            <i class="fab fa-github"></i>
-                                            <h4>GitHub</h4>
-                                        </a>
-                                        <span class="lm-info-block-value"></span>
-                                        <span class="lm-info-block-text"></span>
-                                    </div>
-                                </div>
-                            <!-- End of Contact Form -->
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Psyhology of Intertnation Design</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span>Membership ID: XXXX</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>19 April 2018</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
                         </div>
-
+                      </div>
                     </div>
-                </section>
-                <!-- End of Contact Subpage -->
+                    <!-- End of Certificate 1 -->
+
+                    <!-- Certificate 2 -->
+                    <!--
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="certificate-item clearfix">
+                        <div class="certi-logo">
+                          <img src="img/clients/client-1.png" alt="logo">
+                        </div>
+                        
+                        <div class="certi-content">
+                          <div class="certi-title">
+                            <h4>Psyhology of Intertnation Design</h4>
+                          </div>
+                          <div class="certi-id">
+                            <span>Membership ID: XXXX</span>
+                          </div>
+                          <div class="certi-date">
+                            <span>19 April 2018</span>
+                          </div>
+                          <div class="certi-company">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of Certificate 2 -->
+
+                  <!-- </div> -->
+                  <!-- End of Certificates -->
+                </div>
+              </section>
+              <!-- End of Resume Subpage -->
+
+              <!-- Portfolio Subpage -->
+              <section data-id="portfolio" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>Portfolio</h2>
+                    <h4>My Best Works</h4>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <!-- Portfolio Content -->
+                      <div class="portfolio-content">
+
+                        <ul class="grid-filters portfolio-filters">
+                          <li class="active">
+                            <a class="filter btn btn-sm btn-link" data-filter=".category_all">All</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-filter=".category_detailed">Detailed</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-filter=".category_mockups">Mockups</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-filter=".category_soundcloud">SoundCloud</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-filter=".category_vimeo-videos">Vimeo Videos</a>
+                          </li>
+                          <li>
+                            <a class="filter btn btn-sm btn-link" data-filter=".category_youtube-videos">YouTube Videos</a>
+                          </li>
+                        </ul>
+
+                        <!-- Portfolio Grid -->
+                        <div class="portfolio-grid two-columns">
+                          
+                          <figure class="item lbaudio category_all category_soundcloud">
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/1.jpg" alt="SoundCloud Audio" title="" />
+                              <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" class="lightbox mfp-iframe"></a>
+                            </div>
+
+                            <i class="fa fa-volume-up"></i>
+                            <h4 class="name"><span>SoundCloud</span> Audio</h4>
+                            <span class="category">SoundCloud</span>
+                          </figure>
+
+                          <figure class="item standard category_all category_detailed">
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/2.jpg" alt="Media Project 2" title="" />
+                              <a href="portfolio-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name"><span>Detailed</span> Project 2</h4>
+                            <span class="category">Detailed</span>
+                          </figure>
+
+                          <figure class="item lbvideo category_all category_vimeo-videos">
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/3.jpg" alt="Vimeo Video 1" title="" />
+                              <a href="https://player.vimeo.com/video/158284739" class="lightbox mfp-iframe"></a>
+                            </div>
+
+                            <i class="fas fa-video"></i>
+                            <h4 class="name"><span>Vimeo</span> Video 1</h4>
+                            <span class="category">Vimeo Videos</span>
+                          </figure>
+
+                          <figure class="item standard category_all category_detailed">
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/4.jpg" alt="Media Project 1" title="" />
+                              <a href="portfolio-1.html" class="ajax-page-load"></a>
+                            </div>
+
+                            <i class="far fa-file-alt"></i>
+                            <h4 class="name"><span>Detailed</span> Project 1</h4>
+                            <span class="category">Detailed</span>
+                          </figure>
+
+                          <figure class="item lbimage category_all category_mockups">
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/5.jpg" alt="Mockup Design 1" title="" />
+                              <a class="lightbox" href="img/portfolio/full/5.jpg"></a>
+                            </div>
+
+                            <i class="far fa-image"></i>
+                            <h4 class="name"><span>Mockup</span> Design 1</h4>
+                            <span class="category">Mockups</span>
+                          </figure>
+
+                          <figure class="item lbvideo category_all category_youtube-videos">
+                            <div class="portfolio-item-img">
+                              <img src="img/portfolio/6.jpg" alt="YouTube Video 1" title="" />
+                              <a href="https://www.youtube.com/embed/bg0gv2YpIok" class="lightbox mfp-iframe"></a>
+                            </div>
+
+                            <i class="fas fa-video"></i>
+                            <h4 class="name"><span>YouTube</span> Video 1</h4>
+                            <span class="category">YouTube Videos</span>
+                          </figure>
+                        </div>
+                      </div>
+                      <!-- End of Portfolio Content -->
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- End of Portfolio Subpage -->
+
+              <!-- Contact Subpage -->
+              <section data-id="contact" class="animated-section">
+                <div class="section-content">
+                  <div class="page-title">
+                    <h2>&#60;contact></h2>
+                    <h4>Get in Touch</h4>
+                  </div>
+
+                  <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-xs-12 col-sm-3">
+                      <div class="lm-info-block gray-default">
+                        <!-- <i class="lnr lnr-map-marker"></i> -->
+                        <i class="fa-solid fa-earth-americas fa-2xl"></i>
+                        <h4>Malaga, Spain</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6">
+                      <div class="lm-info-block gray-default">
+                        <!-- <i class="lnr lnr-checkmark-circle"></i> -->
+                        <i class="fa fa-laptop fa-2xl"></i>
+                        <h4>Full-time / Freelance / Contractor</h4>
+                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-3">
+                      <div class="lm-info-block gray-default">
+                        <!-- <i class="lnr lnr-envelope"></i> -->
+                        <i class="fa-solid fa-envelope fa-2xl"></i>
+                        <h4><script type="text/javascript"><!--/* Generated by www.email-encoder.com */
+                          for(var poxqca=["ZA","ag","QA","Zg","ZA","bw","bw","aQ","aQ","Pg","bA","ZQ","bA","PQ","Ig","bw","QA","aA","Og","cg","dA","PA","Lg","dg","YQ","ag","ZQ","PA","aA","IA","aQ","YQ","Pg","bA","Lg","YQ","ZA","ZQ","Ig","Lw","eg","YQ","YQ","dg","bQ","ZQ","bA","ag","aA","ag","bA","ZA","ZQ","eg"],qrjjpy=[47,41,21,6,24,14,20,11,25,53,19,30,12,7,32,38,39,3,15,4,13,50,46,49,26,23,35,0,16,2,43,1,33,36,28,10,42,17,8,51,45,52,44,31,9,5,37,40,34,22,18,29,48,27],lgwkkj=new Array,i=0;i<qrjjpy.length;i++)lgwkkj[qrjjpy[i]]=poxqca[i];for(var i=0;i<lgwkkj.length;i++)document.write(atob(lgwkkj[i]+"=="));
+                          // --></script><noscript>Please enable JavaScript to see the email address (<a href="https://www.email-encoder.com/enablejs/" target="_blank" rel="noopener noreferrer">How-to</a>).</noscript></h4>
+                          <span class="lm-info-block-value"></span>
+                          <span class="lm-info-block-text"></span>
+                      </div>
+                    </div>
+                    <!-- End of Contact Info -->
+                  </div>
+
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                      <div id="map" class="map">
+                          <div class="lmpixels-map">
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635896.2547236609!2d-6.39818777681038!3d36.79191598546832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1667475131336!5m2!1sen!2ses" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6315816.202029036!2d-1.0304247343750008!3d39.381261739961204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f6698d30d151%3A0x403d278a576e680!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1672115012930!5m2!1sen!2ses" width="920" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635896.2547236609!2d-6.39818777681038!3d36.79191598546832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1667475131336!5m2!1sen!2ses" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+              <!-- End of Contact Subpage -->
             </div>
-        </div>
+          </div>
 
+      </div>
     </div>
-</div>
 
-<!--<script data-cfasync="false" src="js/email-decode.min.js"></script>-->
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/animating.js"></script>
+    <!-- <script data-cfasync="false" src="https://lmpixels.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/animating.js"></script>
 
-<script src='js/perfect-scrollbar.min.js'></script>
-<script src='js/jquery.shuffle.min.js'></script>
-<!-- <script src='js/masonry.pkgd.min.js'></script> -->
-<!-- <script src='js/owl.carousel.min.js'></script> -->
-<!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
-<!--<script src="js/validator.js"></script>-->
-<script src="js/main.js"></script>
-<!--
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993"
-        integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA=="
-        data-cf-beacon='{"rayId":"763d90dd1cfc892a","version":"2022.10.3","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}'
-        crossorigin="anonymous"></script>
--->
-<script src="matrix/script.js"></script>
-<script src="js/random_images.js"></script>
+    <script src='js/isotope.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://kit.fontawesome.com/f1f4c53fa1.js" crossorigin="anonymous"></script>
+  <!-- <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"77ec037fcb4c69c3","version":"2022.11.3","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}' crossorigin="anonymous"></script> -->
+  <script>
+    $(document).ready(function() {
+        $("#blog").click(function() {
+            $("<a>").prop({
+                target: "_blank",
+                href: "https://blog.jjdiaz.dev/"
+            })[0].click();
+        });
+    });
+    </script>
 </body>
 </html>

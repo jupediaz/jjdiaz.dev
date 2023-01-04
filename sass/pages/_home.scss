@@ -1,0 +1,45 @@
+.home-photo {
+  display: block;
+  position: relative;
+  width: calc(100% + 10px);
+  padding-bottom: calc(100% + 10px);
+  margin-top: -100px;
+  background-color: #fff;
+  /* border-radius: 1000px;
+  border-top-right-radius: 0; */
+  overflow: hidden;
+}
+.home-photo .hp-inner {
+  background-image: url(https://lmpixels.com/404.shtml);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80%;
+  /* display: block; */
+  position: absolute;
+  top: 40px;
+  /* bottom: 0; */
+  /* width: 50%; */
+  left: 0;
+  right: 0;
+}
+.home-text {
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.home-text h1 {
+  font-size: 46px;
+  line-height: 54px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.home-text h4 {
+  font-size: 16px;
+  color: #9baab3;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.home-buttons {
+  margin-top: 27px;
+}
