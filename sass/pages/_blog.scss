@@ -1,0 +1,19 @@
+.blog-filters {
+  margin-bottom: 30px;
+}
+
+.blog-filters li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.blog-filters li.active {
+  opacity: 1;
+}
+
+.blog-filters li a {
+  color: #666;
+  cursor: pointer;
+}

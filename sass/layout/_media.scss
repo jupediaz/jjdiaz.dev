@@ -168,7 +168,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #000;
     z-index: 99;
     padding: 30px 30px 10px;
     text-align: center;
@@ -193,7 +193,7 @@
   }
   .header .info-list,
   .header-buttons {
-    display: none;
+    // display: none;
   }
   .header-lng {
     float: left;

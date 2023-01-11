@@ -1,0 +1,163 @@
+.portfolio-grid {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+.portfolio-grid figure {
+  width: 33.33333%;
+  float: left;
+  padding: 7px;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-grid.one-column figure {
+  width: 100%;
+}
+.portfolio-grid.two-columns figure {
+  width: 50%;
+}
+.portfolio-grid.three-columns figure {
+  width: 33.33333%;
+}
+.portfolio-grid.four-columns figure {
+  width: 25%;
+}
+.portfolio-grid.five-columns figure {
+  width: 20%;
+}
+.portfolio-grid img {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.portfolio-grid figure a,
+.portfolio-rid figure img {
+  display: block;
+  position: relative;
+}
+.portfolio-grid figure img {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-grid figure:hover img {
+  transform: scale(1.1);
+}
+.portfolio-grid figure a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+.portfolio-item-img {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-grid figure .portfolio-item-img:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.portfolio-grid figure:hover .portfolio-item-img:after {
+  opacity: 1;
+}
+.portfolio-item-desc {
+  margin-top: 12px;
+}
+.portfolio-item-desc h4 {
+  margin-bottom: 0;
+}
+.portfolio-item-desc small {
+  color: #9baab3;
+}
+.portfolio-grid figure i {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 16px;
+  opacity: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: #0099e5;
+  text-align: center;
+  line-height: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio-grid figure .name {
+  display: block;
+  padding: 2px 7px;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: translate3d(50%, 0%, 0);
+  transform: translate3d(50%, 0%, 0);
+}
+.portfolio-grid figure .name span {
+  font-weight: 600;
+}
+.portfolio-grid figure .category {
+  display: inline-block;
+  padding: 2px 7px;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.2em;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: translate3d(-50%, 0%, 0);
+  transform: translate3d(-50%, 0%, 0);
+}
+.portfolio-grid figure:hover i,
+.portfolio-grid figure:hover .name,
+.portfolio-grid figure:hover .category {
+  opacity: 1;
+}
+.portfolio-grid figure:hover .name {
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.portfolio-grid figure:hover .category {
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.portfolio-block {
+  padding-top: 30px;
+}
