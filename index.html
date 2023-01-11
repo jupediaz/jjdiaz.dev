@@ -134,12 +134,12 @@
                 <span class="link-text">Resume</span>
               </a>
             </li>
-            <li>
+            <!-- <li>
                 <a href="#portfolio" class="nav-anim">
                     <span class="menu-icon lnr lnr-briefcase"></span>
                     <span class="link-text">Portfolio</span>
                 </a>
-            </li>
+            </li> -->
             <li>
               <a href="#blog" class="nav-anim">
                 <span class="menu-icon lnr lnr-book"></span>
@@ -1138,314 +1138,584 @@
 
                 <div class="row">
                   <div class="col-xs-12 col-sm-12">
-                    <!-- Portfolio Content -->
-                    <div class="portfolio-content">
-                      <ul class="grid-filters portfolio-filters">
+                    <div class="blog-masonry two-columns clearfix" style="position: relative; height: 615.468px;">
+                    <!-- Blog Content -->
+                    <div class="blog-content">
+                      <ul class="grid-filters blog-filters">
                         <li class="active">
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_all"
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_all"
                             >All</a
+                          >
+                        </li>|
+                        <li>
+                          <a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_jjdiaz"
+                            >blog.jjdiaz.dev</a
                           >
                         </li>
                         <li>
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_scrum"
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_medium"
+                            >medium.com</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_devto"
+                            >dev.to</a>
+                        </li>|
+                        <li>
+                          <a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_scrum"
                             >SCRUM</a
                           >
                         </li>
                         <li>
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_detailed"
-                            >Detailed</a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_laravel"
+                            >Laravel</a
                           >
                         </li>
                         <li>
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_mockups"
-                            >Mockups</a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_symfony"
+                            >Symfony</a
                           >
                         </li>
                         <li>
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_soundcloud"
-                            >SoundCloud</a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_postgresql"
+                            >PostgreSQL</a
                           >
                         </li>
                         <li>
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_vimeo-videos"
-                            >Vimeo Videos</a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_monogodb"
+                            >MongoDB</a
                           >
                         </li>
                         <li>
                           <a
-                            class="filter btn btn-sm btn-link"
-                            data-filter=".category_youtube-videos"
-                            >YouTube Videos</a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_python"
+                            >Python</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_fastapi"
+                            >FastAPI</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="blog-filter btn btn-sm btn-link"
+                            data-filter=".category_blog_go"
+                            >Go</a
                           >
                         </li>
                       </ul>
 
-                      <!-- Portfolio Grid -->
-                      <div class="portfolio-grid two-columns">
+                      <!-- Blog Grid -->
+                      <div class="blog-grid two-columns">
 
                         <figure
-                          class="item lbimage category_all category_scrum"
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_scrum"
                         >
-                          <div class="item post">
-                            <div class="blog-card">
-                              <div class="media-block">
-                                  <div class="category">
-                                  <a href="#" title="View all posts in Design">SCRUM</a>
-                                  </div>
-                                  <a href="https://blog.jjdiaz.dev/managing-a-remote-scrum-team-across-time-zones-and-languages-tips-and-strategies-for-success" target="_blank">
-                                  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671889959843/a923f29f-493a-46b6-a8fa-f0ec1b298637.png" class="size-blog-masonry-image-two-c" alt="Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success" title="Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success" />
-                                  <div class="mask"></div>
-                                  </a>
-                              </div>
-                              <div class="post-info">
-                                  <div class="post-date">Mon, 16 May 2022 13:28:25 GMT</div>
-                                  <a href="https://blog.jjdiaz.dev/managing-a-remote-scrum-team-across-time-zones-and-languages-tips-and-strategies-for-success" target="_blank">
-                                  <h4 class="blog-item-title">Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success</h4>
-                                  <p class="post-meta">Effective communication and Collaboration Strategies for Remote Scrum Teams in different Time Zones and Languages</p>
-                                  </a>
-                                  <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev<i class="fab fa-medium fa-xl"></i> medium<i class="fab fa-dev fa-xl"></i> dev.to</strong></div>
-                              </div>
-                              </div>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a href="#" title="View all posts in Design">SCRUM</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/managing-a-remote-scrum-team-across-time-zones-and-languages-tips-and-strategies-for-success" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671889959843/a923f29f-493a-46b6-a8fa-f0ec1b298637.png" class="size-blog-masonry-image-two-c" alt="Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success" title="Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Mon, 16 May 2022 13:28:25 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/managing-a-remote-scrum-team-across-time-zones-and-languages-tips-and-strategies-for-success" target="_blank">
+                                <h4 class="blog-item-title">Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success</h4>
+                                <p class="post-meta">Effective communication and Collaboration Strategies for Remote Scrum Teams in different Time Zones and Languages</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
                           </div>
                         </figure>
 
                         <figure
-                          class="item lbaudio category_all category_soundcloud"
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel category_blog_php"
                         >
-                          <div class="portfolio-item-img">
-                            <img
-                              src="img/portfolio/1.jpg"
-                              alt="SoundCloud Audio"
-                              title=""
-                            />
-                            <a
-                              href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
-                              class="lightbox mfp-iframe"
-                            ></a>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a href="#" title="View all posts in UI">Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/series/laravel-api-scalability" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671811505455/HvwUO0D0U.png" class="size-blog-masonry-image-two-c" alt="Maximizing the scalability of your Laravel API: Best Practices and Techniques" title="Maximizing the scalability of your Laravel API: Best Practices and Techniques" />
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 01 Jun 2022 14:52:51 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/series/laravel-api-scalability" target="_blank">
+                                <h4 class="blog-item-title">Maximizing the scalability of your Laravel API: Best Practices and Techniques</h4>
+                                <span class="post-meta">In this series of blog posts, we will explore the best practices and techniques for building highly scalable Laravel APIs: optimizing performance, maximizing capacity, and leveraging key features.</span>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
                           </div>
-
-                          <i class="fa fa-volume-up"></i>
-                          <h4 class="name"><span>SoundCloud</span> Audio</h4>
-                          <span class="category">SoundCloud</span>
                         </figure>
 
                         <figure
-                          class="item standard category_all category_detailed"
+                          class="item lbimage category_blog_all category_blog_jjdiazdev category_blog_symfony category_blog_php"
                         >
-                          <div class="portfolio-item-img">
-                            <img
-                              src="img/portfolio/2.jpg"
-                              alt="Media Project 2"
-                              title=""
-                            />
-                            <a
-                              href="portfolio-1.html"
-                              class="ajax-page-load"
-                            ></a>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Symfony</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/the-power-of-symfony-how-this-php-framework-can-transform-your-web-development-projects" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671678985445/bQSqd45Or.webp" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Thu, 26 May 2022 02:17:29 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/the-power-of-symfony-how-this-php-framework-can-transform-your-web-development-projects" target="_blank">
+                                <h4 class="blog-item-title">The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects</h4>
+                                <p class="post-meta">Exploring the Features and Benefits of This Popular PHP Framework</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
                           </div>
-
-                          <i class="far fa-file-alt"></i>
-                          <h4 class="name"><span>Detailed</span> Project 2</h4>
-                          <span class="category">Detailed</span>
                         </figure>
 
                         <figure
-                          class="item lbvideo category_all category_vimeo-videos"
+                          class="item lbimage category_blog_all category_blog_medium category_blog_postgresql"
                         >
-                          <div class="portfolio-item-img">
-                            <img
-                              src="img/portfolio/3.jpg"
-                              alt="Vimeo Video 1"
-                              title=""
-                            />
-                            <a
-                              href="https://player.vimeo.com/video/158284739"
-                              class="lightbox mfp-iframe"
-                            ></a>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>PostgreSQL</a>
+                                </div>
+                                <a href="https://medium.com/@josediazmoreno/why-postgresql-is-a-top-choice-for-data-management-and-applications-4cd5bdab1572" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671675089317/kJg_pjWyd.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Thu, 29 Sep 2022 01:16:10 GMT</div>
+                                <a href="https://medium.com/@josediazmoreno/why-postgresql-is-a-top-choice-for-data-management-and-applications-4cd5bdab1572" target="_blank">
+                                <h4 class="blog-item-title">Why PostgreSQL is a Top Choice for Data Management and Applications</h4>
+                                <p class="post-meta">A Beginner's Guide to Getting Started with PostgreSQL</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-medium fa-xl"></i> Medium</strong></div>
+                            </div>
                           </div>
-
-                          <i class="fas fa-video"></i>
-                          <h4 class="name"><span>Vimeo</span> Video 1</h4>
-                          <span class="category">Vimeo Videos</span>
                         </figure>
 
                         <figure
-                          class="item standard category_all category_detailed"
+                          class="item lbimage category_blog_all category_blog_medium category_blog_monogodb"
                         >
-                          <div class="portfolio-item-img">
-                            <img
-                              src="img/portfolio/4.jpg"
-                              alt="Media Project 1"
-                              title=""
-                            />
-                            <a
-                              href="portfolio-1.html"
-                              class="ajax-page-load"
-                            ></a>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>MongoDB</a>
+                                </div>
+                                <a href="https://medium.com/@josediazmoreno/mongodb-the-pros-and-cons-of-using-a-nosql-database-830dc6fdcc01" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671673751648/4CKGeWkMB.webp" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Sun, 04 Sep 2022 00:51:01 GMT</div>
+                                <a href="https://medium.com/@josediazmoreno/mongodb-the-pros-and-cons-of-using-a-nosql-database-830dc6fdcc01" target="_blank">
+                                <h4 class="blog-item-title">MongoDB: The Pros and Cons of Using a NoSQL Database</h4>
+                                <p class="post-meta">Choosing the Right Database: A Comprehensive Guide to the Pros and Cons of MongoDB</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-medium fa-xl"></i> Medium</strong></div>
+                            </div>
                           </div>
-
-                          <i class="far fa-file-alt"></i>
-                          <h4 class="name"><span>Detailed</span> Project 1</h4>
-                          <span class="category">Detailed</span>
                         </figure>
 
                         <figure
-                          class="item lbimage category_all category_mockups"
+                          class="item lbimage category_blog_all category_blog_devto category_blog_python category_blog_fastapi"
                         >
-                          <div class="portfolio-item-img">
-                            <img
-                              src="img/portfolio/5.jpg"
-                              alt="Mockup Design 1"
-                              title=""
-                            />
-                            <a
-                              class="lightbox"
-                              href="img/portfolio/full/5.jpg"
-                            ></a>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Python</a>
+                                </div>
+                                <a href="https://dev.to/jjdiaz/the-benefits-of-using-swagger-with-fastapi-for-your-python-apis-2am9" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671671538097/5PQ5Ldw8v.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 17 Aug 2022 00:16:25 GMT</div>
+                                <a href="https://dev.to/jjdiaz/the-benefits-of-using-swagger-with-fastapi-for-your-python-apis-2am9" target="_blank">
+                                <h4 class="blog-item-title">The benefits of using Swagger with FastAPI for your Python APIs</h4>
+                                <p class="post-meta">Improve the quality of your Python APIs with Swagger</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-dev fa-xl"></i> Dev.to</strong></div>
+                            </div>
                           </div>
-
-                          <i class="far fa-image"></i>
-                          <h4 class="name"><span>Mockup</span> Design 1</h4>
-                          <span class="category">Mockups</span>
                         </figure>
 
                         <figure
-                          class="item lbvideo category_all category_youtube-videos"
+                          class="item lbimage category_blog_all category_blog_devto category_blog_python category_blog_fastapi"
                         >
-                          <div class="portfolio-item-img">
-                            <img
-                              src="img/portfolio/6.jpg"
-                              alt="YouTube Video 1"
-                              title=""
-                            />
-                            <a
-                              href="https://www.youtube.com/embed/bg0gv2YpIok"
-                              class="lightbox mfp-iframe"
-                            ></a>
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Python</a>
+                                </div>
+                                <a href="https://dev.to/jjdiaz/fastapi-the-high-performance-python-framework-for-building-apis-hic" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671619940920/lD_CFUUx0.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Thu, 09 Jun 2022 23:04:44 GMT</div>
+                                <a href="https://dev.to/jjdiaz/fastapi-the-high-performance-python-framework-for-building-apis-hic" target="_blank">
+                                <h4 class="blog-item-title">FastAPI: The High-Performance Python Framework for Building APIs</h4>
+                                <p class="post-meta">FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-dev fa-xl"></i> Dev.to</strong></div>
+                            </div>
                           </div>
+                        </figure>
 
-                          <i class="fas fa-video"></i>
-                          <h4 class="name"><span>YouTube</span> Video 1</h4>
-                          <span class="category">YouTube Videos</span>
+                        <figure
+                          class="item lbimage category_blog_all category_blog_medium category_blog_go"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Go</a>
+                                </div>
+                                <a href="https://medium.com/@josediazmoreno/go-language-fast-simple-scalable-4830222e6d7" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671673279819/WHoRqOgCR.webp" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Thu, 28 Jul 2022 00:37:26 GMT</div>
+                                <a href="https://medium.com/@josediazmoreno/go-language-fast-simple-scalable-4830222e6d7" target="_blank">
+                                <h4 class="blog-item-title">Go Language: An Introduction to Google's Efficient, Concurrent Programming Language</h4>
+                                <p class="post-meta">A Guide to Go's Features, Structure, and Applications</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-medium fa-xl"></i> Medium</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/14-best-practices-for-optimizing-the-performance-of-your-laravel-api" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671834680236/6c234380-9a6e-4158-9bfe-387ce14c3ac2.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Sat, 03 Sep 2022 21:33:16 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/14-best-practices-for-optimizing-the-performance-of-your-laravel-api" target="_blank">
+                                <h4 class="blog-item-title">14 Best Practices for Optimizing the Performance of your Laravel API</h4>
+                                <p class="post-meta">Tips and techniques for improving the speed and efficiency of your Laravel API</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/optimizing-performance-with-laravel-queues-and-rabbitmq-for-your-api" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671813245647/41dfaf5c-81ab-4707-b6e8-33b714d9643c.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 01 Jun 2022 14:52:51 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/optimizing-performance-with-laravel-queues-and-rabbitmq-for-your-api" target="_blank">
+                                <h4 class="blog-item-title">Optimizing Performance with Laravel Queues and RabbitMQ for Your API</h4>
+                                <p class="post-meta">Integrating RabbitMQ into your Laravel API for Asynchronous Task Processing</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/boosting-performance-with-caching-in-laravel" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671812615951/3479041e-91a7-4e90-bee1-097c3646d07c.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 15 Jun 2022 15:24:09 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/boosting-performance-with-caching-in-laravel" target="_blank">
+                                <h4 class="blog-item-title">Boosting Performance with Caching in Laravel</h4>
+                                <p class="post-meta">Enhancing User Experience with Caching in Laravel</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/boost-api-performance-with-http-caching-in-laravel" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671815745145/50f96231-31b8-4d31-b91e-4727fa49a4fe.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Sat, 02 Jul 2022 16:18:02 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/boost-api-performance-with-http-caching-in-laravel" target="_blank">
+                                <h4 class="blog-item-title">Boost API Performance with HTTP Caching in Laravel</h4>
+                                <p class="post-meta">Learn how to use Laravel's built-in HTTP caching support or a third-party library like laravel-responsecache</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-haproxy" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671815745145/50f96231-31b8-4d31-b91e-4727fa49a4fe.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Tue, 05 Jul 2022 16:39:23 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-haproxy" target="_blank">
+                                <h4 class="blog-item-title">Maximize API Performance with a Load Balancer: HAProxy</h4>
+                                <p class="post-meta">Explore the different options for load balancers and learn how to choose the best one for your API</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-aws-elb" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671818065761/b0e0e365-b02a-4a5e-8b6c-55072aae721f.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Tue, 12 Jul 2022 16:56:05 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-aws-elb" target="_blank">
+                                <h4 class="blog-item-title">Maximize API Performance with a Load Balancer: AWS ELB</h4>
+                                <p class="post-meta">How to set up an AWS Elastic Load Balancer to distribute incoming requests across multiple servers and improve the scalability of your Laravel API</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-azure-load-balancer" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671818759657/b1baeb3d-e45b-48b6-b1d8-86d71a31be27.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 20 Jul 2022 17:12:58 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-azure-load-balancer" target="_blank">
+                                <h4 class="blog-item-title">Maximize API Performance with a Load Balancer: Azure load balancer</h4>
+                                <p class="post-meta">Learn how to set up and configure an Azure Load Balancer to improve the performance and scalability of your Laravel API</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-nginx" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671819836744/8b169d6c-6729-4a1c-88cc-a0c43b5aa0f7.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 27 Jul 2022 17:28:15 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/maximize-api-performance-with-a-load-balancer-nginx" target="_blank">
+                                <h4 class="blog-item-title">Maximize API Performance with a Load Balancer: NGINX</h4>
+                                <p class="post-meta">Configuring NGINX for Load Balancing and Request Routing with Health Checks</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/creating-documentation-and-testing-with-swagger-openapi-for-a-laravel-api" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671821335813/8b01502d-b54f-417e-b777-bea8eb4f37ec.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Wed, 27 Jul 2022 17:28:15 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/creating-documentation-and-testing-with-swagger-openapi-for-a-laravel-api" target="_blank">
+                                <h4 class="blog-item-title">Creating Documentation and Testing with Swagger OpenAPI for a Laravel API</h4>
+                                <p class="post-meta">Understand the process of generating documentation and testing a Laravel API with Swagger OpenAPI</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/using-a-cdn-to-deliver-faster-and-more-secure-content-in-laravel" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671827709675/bc274e38-bad8-4917-999d-2e73f79fc28c.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Tue, 09 Aug 2022 19:36:02 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/using-a-cdn-to-deliver-faster-and-more-secure-content-in-laravel" target="_blank">
+                                <h4 class="blog-item-title">Using a CDN to deliver faster and more secure content in Laravel</h4>
+                                <p class="post-meta">The benefits of using a CDN with Laravel: performance, security, scalability, and cost savings</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/optimizing-scalability-and-health-of-your-laravel-apis-with-monitoring-tools-like-datadog-and-new-relic" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671828680547/a4dae74b-3ab5-4539-9666-d1c9bc34b627.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Fri, 26 Aug 2022 20:16:27 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/optimizing-scalability-and-health-of-your-laravel-apis-with-monitoring-tools-like-datadog-and-new-relic" target="_blank">
+                                <h4 class="blog-item-title">Optimizing scalability and health of your Laravel APIs with monitoring tools like Datadog and New Relic</h4>
+                                <p class="post-meta">Using monitoring tools to track key metrics and identify bottlenecks in your Laravel API</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
+                        </figure>
+                        
+                        <figure
+                          class="item lbimage category_blog_all category_blog_jjdiaz category_blog_laravel"
+                        >
+                          <div class="blog-card">
+                            <div class="media-block">
+                                <div class="category">
+                                <a>Laravel</a>
+                                </div>
+                                <a href="https://blog.jjdiaz.dev/maximizing-scalability-and-flexibility-with-a-microservices-architecture-for-your-laravel-api" target="_blank">
+                                <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671830657879/1e75027a-12ae-46c5-806a-007ef5dd4847.png" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
+                                <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="post-info">
+                                <div class="post-date">Tue, 30 Aug 2022 20:36:30 GMT</div>
+                                <a href="https://blog.jjdiaz.dev/maximizing-scalability-and-flexibility-with-a-microservices-architecture-for-your-laravel-api" target="_blank">
+                                <h4 class="blog-item-title">Maximizing scalability and flexibility with a microservices architecture for your Laravel API</h4>
+                                <p class="post-meta">Balancing the Benefits and Challenges of using a Microservices Architecture with your Laravel API</p>
+                                </a>
+                                <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev</strong></div>
+                            </div>
+                          </div>
                         </figure>
                       </div>
                     </div>
-                    <!-- End of Portfolio Content -->
+                    </div>
+                    <!-- End of Blog Content -->
                   </div>
                 </div>
-
-                <!-- <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                    <ul class="blog-filters">
-                      <li class="active">
-                        <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
-                      </li>
-                      <li>
-                        <a class="filter btn btn-sm btn-link" data-group="category_detailed">Detailed</a>
-                      </li>
-                      <li class="">
-                        <a class="filter btn btn-sm btn-link" data-group="category_mockups">Mockups</a>
-                      </li>
-                      <li class="">
-                        <a class="filter btn btn-sm btn-link" data-group="category_soundcloud">SoundCloud</a>
-                      </li>
-                      <li class="">
-                        <a class="filter btn btn-sm btn-link" data-group="category_vimeo-videos">Vimeo Videos</a>
-                      </li>
-                      <li class="">
-                        <a class="filter btn btn-sm btn-link" data-group="category_youtube-videos">YouTube Videos</a>
-                      </li>
-                    </ul>
-
-                    <div class="blog-masonry two-columns clearfix">
-                    
-                    <!-- Blog Post -->
-                    <div class="item post">
-                        <div class="blog-card">
-                        <div class="media-block">
-                            <div class="category">
-                            <a href="#" title="View all posts in Design">SCRUM</a>
-                            </div>
-                            <a href="https://blog.jjdiaz.dev/managing-a-remote-scrum-team-across-time-zones-and-languages-tips-and-strategies-for-success" target="_blank">
-                            <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671889959843/a923f29f-493a-46b6-a8fa-f0ec1b298637.png" class="size-blog-masonry-image-two-c" alt="Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success" title="Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success" />
-                            <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="post-info">
-                            <div class="post-date">Mon, 16 May 2022 13:28:25 GMT</div>
-                            <a href="https://blog.jjdiaz.dev/managing-a-remote-scrum-team-across-time-zones-and-languages-tips-and-strategies-for-success" target="_blank">
-                            <h4 class="blog-item-title">Managing a remote Scrum Team across Time Zones and Languages: Tips and Strategies for Success</h4>
-                            <p class="post-meta">Effective communication and Collaboration Strategies for Remote Scrum Teams in different Time Zones and Languages</p>
-                            </a>
-                            <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev<i class="fab fa-medium fa-xl"></i> medium<i class="fab fa-dev fa-xl"></i> dev.to</strong></div>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- End of Blog Post -->
-
-                    <!-- Blog Post -->
-                    <div class="item post-2">
-                        <div class="blog-card">
-                        <div class="media-block">
-                            <div class="category">
-                            <a href="#" title="View all posts in UI">Laravel</a>
-                            </div>
-                            <a href="https://blog.jjdiaz.dev/series/laravel-api-scalability" target="_blank">
-                            <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671811505455/HvwUO0D0U.png" class="size-blog-masonry-image-two-c" alt="Maximizing the scalability of your Laravel API: Best Practices and Techniques" title="Maximizing the scalability of your Laravel API: Best Practices and Techniques" />
-                            </a>
-                        </div>
-                        <div class="post-info">
-                            <div class="post-date">Wed, 01 Jun 2022 14:52:51 GMT</div>
-                            <a href="https://blog.jjdiaz.dev/series/laravel-api-scalability" target="_blank">
-                            <h4 class="blog-item-title">Maximizing the scalability of your Laravel API: Best Practices and Techniques</h4>
-                            <span class="post-meta">In this series of blog posts, we will explore the best practices and techniques for building highly scalable Laravel APIs: optimizing performance, maximizing capacity, and leveraging key features.</span>
-                            </a>
-                            <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev<i class="fab fa-medium fa-xl"></i> medium<i class="fab fa-dev fa-xl"></i> dev.to</strong></div>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- End of Blog Post -->
-
-                    <!-- Blog Post -->
-                    <div class="item post">
-                        <div class="blog-card">
-                        <div class="media-block">
-                            <div class="category">
-                            <a href="#" title="View all posts in Design">Symfony</a>
-                            </div>
-                            <a href="https://blog.jjdiaz.dev/the-power-of-symfony-how-this-php-framework-can-transform-your-web-development-projects" target="_blank">
-                            <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1671678985445/bQSqd45Or.webp" class="size-blog-masonry-image-two-c" alt="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" title="The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects" />
-                            <div class="mask"></div>
-                            </a>
-                        </div>
-                        <div class="post-info">
-                            <div class="post-date">Thu, 26 May 2022 02:17:29 GMT</div>
-                            <a href="https://blog.jjdiaz.dev/the-power-of-symfony-how-this-php-framework-can-transform-your-web-development-projects" target="_blank">
-                            <h4 class="blog-item-title">The Power of Symfony: How This PHP Framework Can Transform Your Web Development Projects</h4>
-                            <p class="post-meta">Exploring the Features and Benefits of This Popular PHP Framework</p>
-                            </a>
-                            <div class="posted-on">posted on <strong><i class="fab fa-hashnode fa-xl"></i> blog.jjdiaz.dev<i class="fab fa-medium fa-xl"></i> Medium<i class="fab fa-dev fa-xl"></i> Dev.to</strong></div>
-                        </div>
-                        </div>
-                    </div>
-                    <!-- End of Blog Post -->
-                    </div>
-                </div>
-                </div> -->
+                
             </div>
-
 
             </section>
             <!-- End of Blog Subpage -->
@@ -1581,17 +1851,7 @@
                   <div class="col-xs-12 col-sm-12">
                     <div id="map" class="map">
                       <div class="lmpixels-map">
-                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635896.2547236609!2d-6.39818777681038!3d36.79191598546832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1667475131336!5m2!1sen!2ses" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                        <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6315816.202029036!2d-1.0304247343750008!3d39.381261739961204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f6698d30d151%3A0x403d278a576e680!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1672115012930!5m2!1sen!2ses"
-                          width="920"
-                          height="400"
-                          style="border: 0"
-                          allowfullscreen=""
-                          loading="lazy"
-                          referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
-                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635896.2547236609!2d-6.39818777681038!3d36.79191598546832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72ea35fca22853%3A0x303d278a575cb00!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1667475131336!5m2!1sen!2ses" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6315816.202029036!2d-1.0304247343750008!3d39.381261739961204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f6698d30d151%3A0x403d278a576e680!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1672115012930!5m2!1sen!2ses" width="920" height="400" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                       </div>
                     </div>
                   </div>

@@ -1,26 +1,64 @@
 ! function (e) {
     "use strict";
 
+    // function a() {
+    //     var a = e(".portfolio-grid");
+    //     if (a) {
+    //         a.isotope({
+    //             layoutMode: "masonry",
+    //             itemSelector: "figure"
+    //         });
+    //         var t = e(".portfolio-filters"),
+    //             o = t.find("a.filter");
+    //         o.click(function () {
+    //             var t = e(this);
+    //             if (t.parent().hasClass("active")) return !1;
+    //             o.parent().removeClass("active"), e(this).parent().addClass("active");
+    //             var i = e(this).attr("data-filter");
+    //             return a.isotope({
+    //                 filter: i
+    //             }), !1
+    //         })
+    //     }
+    // }
+
     function a() {
-        var a = e(".portfolio-grid");
-        if (a) {
-            a.isotope({
+        var portfolio_grid = e(".portfolio-grid");
+        var blog_grid = e(".blog-grid");
+        if (portfolio_grid && blog_grid) {
+            portfolio_grid.isotope({
+                layoutMode: "masonry",
+                itemSelector: "figure"
+            });
+            blog_grid.isotope({
                 layoutMode: "masonry",
                 itemSelector: "figure"
             });
             var t = e(".portfolio-filters"),
-                o = t.find("a.filter");
+                b = e(".blog-filters"),
+                o = t.find("a.filter"),
+                b_o = b.find("a.blog-filter");
             o.click(function () {
                 var t = e(this);
                 if (t.parent().hasClass("active")) return !1;
                 o.parent().removeClass("active"), e(this).parent().addClass("active");
                 var i = e(this).attr("data-filter");
-                return a.isotope({
+                return portfolio_grid.isotope({
                     filter: i
                 }), !1
-            })
+            });
+            b_o.click(function () {
+                var t = e(this);
+                if (t.parent().hasClass("active")) return !1;
+                b_o.parent().removeClass("active"), e(this).parent().addClass("active");
+                var i = e(this).attr("data-filter");
+                return blog_grid.isotope({
+                    filter: i
+                }), !1
+            });
         }
     }
+
 
     function t() {
         var a = e(window).width(),
@@ -188,9 +226,7 @@
                     }
                 }
             }), e(".lmpixels-map")[0]) {
-            var c = "San Francisco, S601 Townsend Street, California, USA",
-                c = encodeURIComponent(c),
-                r = "https://maps.google.com/maps?q=" + c + "&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near&output=embed";
+            var r = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6315816.202029036!2d-1.0304247343750008!3d39.381261739961204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f6698d30d151%3A0x403d278a576e680!2zTcOhbGFnYQ!5e0!3m2!1sen!2ses!4v1672115012930!5m2!1sen!2ses";
             e(".lmpixels-map iframe").attr("src", r)
         }
         e(".messages").on("click", ".close", function () {
